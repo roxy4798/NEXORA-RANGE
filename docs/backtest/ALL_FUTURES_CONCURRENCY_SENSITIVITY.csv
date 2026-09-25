@@ -1,0 +1,6 @@
+Concurrency_Limit,Trades,Win_Rate,Profit_Factor,Net_PnL,Max_Drawdown_Pct,Max_Drawdown_USD
+Concurrency_1,227,33.9,0.99,-54.5,16.42,1952.85
+Concurrency_2,407,34.6,1.03,546.94,20.88,2772.78
+Concurrency_3,433,35.3,1.01,151.14,26.42,3596.46
+Concurrency_5,490,34.9,1.01,236.27,34.94,4769.65
+Concurrency_10,650,33.5,0.99,-294.66,39.24,4742.16

@@ -1,0 +1,9 @@
+metric_dimension,quantile,events_count,mfe_48b_mean,mfe_48b_median,mae_48b_mean,mae_48b_median,close_ret_48b_mean,close_ret_48b_median
+range_width_atr,Q1 (Lowest),3857,16.74,9.93,-13.18,-7.51,1.02,0.54
+range_width_atr,Q2 (Mid-Low),3857,13.1,8.44,-12.39,-8.19,-0.47,-0.22
+range_width_atr,Q3 (Mid-High),3857,13.07,7.34,-16.86,-8.89,-0.68,-1.21
+range_width_atr,Q4 (Highest),3857,13.52,7.09,-14.4,-9.59,-1.94,-2.22
+breakout_magnitude_atr,Q1 (Lowest),3857,10.63,6.05,-17.07,-10.0,-2.59,-2.49
+breakout_magnitude_atr,Q2 (Mid-Low),3857,12.87,8.09,-15.14,-8.15,-0.76,-0.75
+breakout_magnitude_atr,Q3 (Mid-High),3857,13.78,8.57,-12.61,-8.1,-0.31,-0.28
+breakout_magnitude_atr,Q4 (Highest),3857,19.15,10.15,-12.02,-8.0,1.59,0.04

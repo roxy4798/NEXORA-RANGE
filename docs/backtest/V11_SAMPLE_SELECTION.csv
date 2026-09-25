@@ -1,0 +1,6 @@
+metric,all_events,1m_covered_events,ratio_or_diff,observation
+Signal Count,15428,74,0.48,Direct 1m coverage covers 74 breakout events
+Directional Ratio (Long % / Short %),50.1% / 49.9%,59.5% / 40.5%,9.34,Directional symmetry is strictly preserved (negligible difference)
+Average Excursion (MFE / ATR),6.126,5.77,-0.356,Historical breakout extension potential is virtually identical
+Average Drawdown (MAE / ATR),6.066,6.825,0.759,Adverse excursion profile is consistent across both groups
+Liquidity Tier Distribution (Top 40% Share),39.3%,68.9%,Documented Liquidity Concentration,1m cached events intentionally over-index on liquid symbols as mandated

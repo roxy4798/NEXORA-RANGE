@@ -1,0 +1,11 @@
+candidate_id,partition,trade_count,win_rate_pct,profit_factor,mean_return_pct,median_return_pct,expectancy_pct,total_pnl_pct,max_drawdown_pts
+Candidate_A_Baseline,DEVELOPMENT_70pct,10803,77.7,1.04,0.11,1.55,0.11,1221.3,2665.8
+Candidate_A_Baseline,HOLDOUT_30pct,4625,79.0,0.99,-0.03,1.53,-0.03,-157.6,4594.6
+Candidate_B_HighWR,DEVELOPMENT_70pct,10803,84.1,1.6,1.02,1.35,1.02,11041.5,1179.04
+Candidate_B_HighWR,HOLDOUT_30pct,4625,84.2,1.51,0.97,1.32,0.97,4469.7,2333.54
+Candidate_C_Balanced,DEVELOPMENT_70pct,10803,79.6,1.06,0.2,2.16,0.2,2177.0,2944.94
+Candidate_C_Balanced,HOLDOUT_30pct,4625,80.8,0.98,-0.07,2.18,-0.07,-335.9,5194.01
+Candidate_D_HighPnL,DEVELOPMENT_70pct,10803,70.5,1.07,0.34,3.94,0.34,3708.4,3894.8
+Candidate_D_HighPnL,HOLDOUT_30pct,4625,72.4,0.95,-0.29,3.81,-0.29,-1327.4,6454.86
+Candidate_E_MultiStage,DEVELOPMENT_70pct,10803,79.8,1.12,0.38,1.66,0.38,4124.9,2559.4
+Candidate_E_MultiStage,HOLDOUT_30pct,4625,81.3,1.07,0.24,1.64,0.24,1093.0,4403.38

@@ -1,0 +1,6 @@
+config_id,description,win_rate_pct,profit_factor,mean_return_pct,median_return_pct,total_pnl_pct,max_drawdown_pts,avg_holding_bars
+A_Trailing_Only,Baseline Model A (1.0 ATR act / 1.0 ATR trail),80.3,1.05,0.17,1.64,2606.4,4520.7,29.2
+B_Deviation_Only,"Exit immediately at bar index of deviation if experienced, else 48b expiry",30.5,0.76,-1.16,-2.1,-17971.4,21000.74,33.3
+C_Trailing_OR_Deviation,Exit when either trailing stop hits OR deviation occurs (whichever first),60.4,0.96,-0.12,0.63,-1783.4,5005.88,19.7
+D_Trailing_AND_Deviation,Exit when trailing stop hits ONLY IF deviation also occurred,57.2,0.89,-0.75,0.88,-11567.6,18123.49,72.8
+E_Deviation_Tighten_Override,"If deviation occurs within first 12 bars, tighten trail from 1.0 to 0.5 ATR",81.0,1.12,0.39,1.96,6013.6,4375.22,28.9

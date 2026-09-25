@@ -1,0 +1,11 @@
+candidate_id,direction,trade_count,win_rate_pct,profit_factor,mean_return_pct,median_return_pct,expectancy_pct,total_pnl_pct,max_drawdown_pts
+Candidate_A_Baseline,LONG,7733,79.3,1.4,1.14,1.67,1.14,8828.5,5535.63
+Candidate_A_Baseline,SHORT,7695,76.8,0.72,-1.01,1.43,-1.01,-7764.9,11468.23
+Candidate_B_HighWR,LONG,7733,85.3,2.27,1.96,1.57,1.96,15153.9,1609.53
+Candidate_B_HighWR,SHORT,7695,82.9,1.02,0.05,1.16,0.05,357.4,4824.56
+Candidate_C_Balanced,LONG,7733,81.0,1.41,1.37,2.3,1.37,10607.8,6355.64
+Candidate_C_Balanced,SHORT,7695,78.9,0.73,-1.14,2.05,-1.14,-8766.7,13371.95
+Candidate_D_HighPnL,LONG,7733,72.8,1.45,1.99,4.12,1.99,15354.8,7777.3
+Candidate_D_HighPnL,SHORT,7695,69.4,0.72,-1.69,3.71,-1.69,-12973.7,19264.82
+Candidate_E_MultiStage,LONG,7733,81.4,1.52,1.47,1.78,1.47,11364.3,5010.48
+Candidate_E_MultiStage,SHORT,7695,79.2,0.78,-0.8,1.53,-0.8,-6146.5,10795.01

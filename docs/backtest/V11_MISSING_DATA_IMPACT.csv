@@ -1,0 +1,4 @@
+segment,signals,executed_trades,win_rate,profit_factor,net_pnl_usd,max_dd_pct,total_slippage_usd
+FULL-1M Only (Model A),74,74,64.86,8.7,1.41,0.05,1.24
+MISSING-1M Data Segment (4H Fallback),15354,2438,83.1,3.45,355.24,4.23,111.36
+MIXED Full Portfolio (Model B),15428,2456,82.33,3.28,360.82,5.37,113.86

@@ -1,0 +1,5 @@
+quartile,trade_count,win_rate_pct,profit_factor,mean_return_pct,median_return_pct,total_pnl_pct,max_drawdown_pts
+Q1,3857,78.9,0.88,-0.38,1.55,-1459.3,2665.8
+Q2,3857,80.1,1.19,0.56,1.89,2152.1,1754.72
+Q3,3857,75.1,1.13,0.4,1.25,1548.9,1819.32
+Q4,3857,78.1,0.92,-0.31,1.5,-1178.1,4479.76

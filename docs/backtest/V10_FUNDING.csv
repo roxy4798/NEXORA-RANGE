@@ -1,0 +1,5 @@
+scenario,funding_rate_per_4h_pct,trades,gross_trading_pnl_usd,fees_usd,slippage_usd,funding_usd,net_pnl_usd,wr,pf,max_dd_pct
+Zero Funding,0.0,2449,535.89,22.21,116.39,0.0,397.28,83.63,3.71,4.11
+V9 Baseline (0.01% / 8h),0.005,2449,522.27,21.68,113.59,8.1,378.89,82.73,3.57,4.23
+2x Baseline (0.02% / 8h),0.01,2449,509.02,21.17,110.87,15.83,361.15,82.03,3.43,4.35
+5x Baseline (0.05% / 8h),0.025,2449,471.36,19.7,103.11,36.99,311.56,80.36,3.04,4.7

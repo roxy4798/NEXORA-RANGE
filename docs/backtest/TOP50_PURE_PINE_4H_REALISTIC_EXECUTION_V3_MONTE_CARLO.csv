@@ -1,0 +1,5 @@
+Model,Iterations,DD_P5_Pct,DD_P25_Pct,DD_P50_Pct,DD_P75_Pct,DD_P95_Pct,Median_Consecutive_Losses,P95_Consecutive_Losses,Median_Ending_Equity_USD
+V3-A,5000,2.95,3.73,4.48,5.54,7.49,8,12,14064.82
+V3-B,5000,2.26,2.85,3.45,4.22,5.65,10,15,14156.76
+V3-C,5000,3.92,4.94,5.89,7.14,9.43,10,16,11557.81
+V3-D,5000,3.84,4.84,5.78,7.06,9.49,11,17,13398.67

@@ -1,0 +1,4 @@
+Exit_Reason,Trade_Count,Pct_of_Trades,Win_Rate,Profit_Factor,Net_PnL_USD,Avg_PnL_USD,Avg_MFE,Avg_MAE,Avg_Holding_Bars
+PINE_DEVIATION,126,25.7,0.0,0.0,-3781.79,-30.01,1.89,-3.64,4.2
+STRUCTURAL_SL,100,20.4,0.0,0.0,-11821.8,-118.22,4.99,-14.11,24.2
+TIME_EXPIRY,264,53.9,64.8,4.68,15839.86,60.0,16.6,-5.5,47.7

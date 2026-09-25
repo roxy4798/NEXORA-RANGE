@@ -1,0 +1,4 @@
+candidate,starting_usd,ending_equity_p5,ending_equity_p25,ending_equity_median,ending_equity_p75,ending_equity_p95,max_dd_p5,max_dd_median,max_dd_p95,prob_ending_gt_1_0x,prob_ending_gt_1_25x,prob_ending_gt_1_50x,prob_ending_gt_2_0x,losing_streak_median,losing_streak_p95
+Candidate_A,100.0,367.23,425.55,469.98,520.06,599.08,3.46,4.83,7.6,100.0,100.0,100.0,100.0,3,4
+Candidate_B,100.0,208.94,237.3,259.81,283.27,322.63,3.56,5.34,8.69,100.0,100.0,100.0,97.5,2,3
+Candidate_C,100.0,163.04,191.8,214.27,238.87,280.22,4.76,7.23,11.89,100.0,99.9,98.3,66.3,4,5

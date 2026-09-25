@@ -1,0 +1,5 @@
+liquidity_tier,median_spread_pct,p75_spread_pct,p90_spread_pct,p95_spread_pct,typical_symbols
+HIGH LIQUIDITY (Top 20%),0.015,0.02,0.03,0.04,"BTC, ETH, SOL, DOGE, BNB"
+MEDIUM LIQUIDITY (20-60%),0.04,0.055,0.08,0.105,"Mid-cap Alts, Layer-1s, DeFi"
+LOW LIQUIDITY (Bottom 40%),0.095,0.145,0.21,0.285,"Micro-cap Alts, Memes, New Listings"
+ENTIRE UNIVERSE (520 Symbols),0.038,0.065,0.11,0.18,All 520 Binance USDT Perps

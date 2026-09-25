@@ -1,0 +1,9 @@
+metric,value
+Total Executed Trades,2449
+Trades with Adverse Gap Fills,1
+Gap Frequency (%),0.04
+Mean Adverse Gap (%),3.4133
+Median Adverse Gap (%),3.4133
+P90 Adverse Gap (%),3.4133
+P95 Adverse Gap (%),3.4133
+Maximum Adverse Gap (%),3.4133

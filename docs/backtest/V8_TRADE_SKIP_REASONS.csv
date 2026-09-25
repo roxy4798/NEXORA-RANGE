@@ -1,0 +1,4 @@
+candidate,total_signals_evaluated,executed_trades,skipped_concurrency_limit,skipped_capital_shortage,execution_rate_pct
+Candidate_A,15428,1750,13678,0,11.34
+Candidate_B,15428,1231,14197,0,7.98
+Candidate_C,15428,937,14491,0,6.07

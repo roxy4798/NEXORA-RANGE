@@ -1,0 +1,2 @@
+model,trades,wr,pf,net_pnl,latency_sec,notes
+Model C (Conservative Adverse Price),74,64.86,8.7,1.41,5.0,Primary conservative entry model

@@ -1,0 +1,2 @@
+frequency,trades,wr,pf,net_pnl,adverse_slip_atr,notes
+1-Minute Chronological Updates,74,64.86,8.7,1.41,0.05,0.25 ATR trailing stop evaluated every 60s

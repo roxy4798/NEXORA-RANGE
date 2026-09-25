@@ -1,0 +1,5 @@
+entry_model,description,trades,wr,pf,net_pnl,return_pct,max_dd_pct,total_slip_usd
+A,First Available 1m Open Price,2674,83.81,3.84,559.71,559.71,4.91,104.29
+B,VWAP Approximation during Latency,2674,83.81,3.84,559.76,559.76,4.91,104.27
+C,Conservative Adverse Price (PRIMARY),2449,82.73,3.57,378.89,378.89,4.23,113.59
+D,Next Available Trade / aggTrade,2674,83.81,3.85,562.63,562.63,4.91,107.08

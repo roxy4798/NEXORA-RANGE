@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-09-25T17:55:33.737439+00:00",
+  "signals_detected": 0,
+  "signals_executed": 0,
+  "signals_skipped": 0,
+  "open_positions": 0,
+  "closed_trades": 0,
+  "win_rate_pct": 0.0,
+  "profit_factor": 0.0,
+  "net_pnl_usd": 0.0,
+  "total_fees_usd": 0.0,
+  "total_funding_usd": 0.0,
+  "total_slippage_usd": 0.0,
+  "current_equity_usd": 100.0,
+  "peak_equity_usd": 100.0,
+  "max_drawdown_pct": 0.0,
+  "capital_utilization_pct": 0.0,
+  "system_health": "HEALTHY"
+}

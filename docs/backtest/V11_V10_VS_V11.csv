@@ -1,0 +1,4 @@
+dataset,coverage,trades,wr,pf,pnl,max_dd,holdout_wr,holdout_pf,fees,slippage,funding
+V10 Mixed (27.5% 1m Coverage),27.5% 1m,2449,82.73,3.57,378.89,4.23,80.67,4.06,21.68,113.59,8.1
+V11 Full-1M (Model A - 100% 1m Only),100.0% 1m (Full-1M Subpopulation),74,64.86,8.7,1.41,0.05,47.83,3.99,0.3,1.24,0.03
+V11 Mixed (Model B - Expanded 1m + Fallback),1.26% 1m (98.7% 4H),2456,82.33,3.28,360.82,5.37,79.34,3.42,21.7,113.86,8.06

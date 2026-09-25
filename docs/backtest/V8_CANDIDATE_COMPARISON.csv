@@ -1,0 +1,10 @@
+candidate,sizing_mode,starting_usd,ending_usd,net_profit_usd,return_pct,win_rate_pct,profit_factor,max_drawdown_usd,max_drawdown_pct,trades_count
+Candidate_A,Dynamic_Compounding,100.0,491.94,391.94,391.94,87.5,3.21,45.87,8.55,1750
+Candidate_A,Fixed_Notional_NoCompounding,100.0,256.03,156.03,156.03,87.5,3.21,9.53,3.59,1750
+Candidate_A,Half_Compounding,100.0,340.01,240.01,240.01,87.5,3.21,20.77,5.77,1750
+Candidate_B,Dynamic_Compounding,100.0,264.62,164.62,164.62,92.0,2.13,24.28,8.43,1231
+Candidate_B,Fixed_Notional_NoCompounding,100.0,196.34,96.34,96.34,92.0,2.13,9.08,4.43,1231
+Candidate_B,Half_Compounding,100.0,224.55,124.55,124.55,92.0,2.13,14.82,6.2,1231
+Candidate_C,Dynamic_Compounding,100.0,215.82,115.82,115.82,81.9,1.58,15.63,8.59,937
+Candidate_C,Fixed_Notional_NoCompounding,100.0,177.35,77.35,77.35,81.9,1.58,8.75,7.22,937
+Candidate_C,Half_Compounding,100.0,194.15,94.15,94.15,81.9,1.58,10.58,7.88,937

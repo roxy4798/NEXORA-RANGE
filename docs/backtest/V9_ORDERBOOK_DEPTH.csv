@@ -1,0 +1,7 @@
+depth_bracket_pct,status,fillable_notional_usd,expected_slippage_pct,fill_pct,insufficient_depth_events,notes
+0.01%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),0.01,100.0,0,Sensitivity: fits within tight top-of-book
+0.05%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),0.05,100.0,0,Sensitivity: baseline standard limit/market fill
+0.10%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),0.1,100.0,0,Sensitivity: sweeps 10 bps into book
+0.25%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),0.25,100.0,0,Sensitivity: conservative book exhaustion
+0.50%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),0.5,100.0,0,Sensitivity: severe illiquidity event
+1.00%,ORDERBOOK DATA NOT AVAILABLE,N/A (Historical L2 ticks absent),1.0,100.0,0,Sensitivity: flash market collapse / vacuum

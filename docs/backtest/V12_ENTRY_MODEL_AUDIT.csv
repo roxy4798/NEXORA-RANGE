@@ -1,0 +1,5 @@
+model_id,model_name,price_source,observable_at_execution,uses_future_bar_info,uses_ohlc_high_low,mathematical_formula,assessment
+Model A,First 1M Bar Open,1m kline open,True,False,False,P_entry = Open_1m * (1 +/- slippage),Standard non-anticipating baseline; assumes order fills at opening tick.
+Model B,Latency Interval VWAP Proxy,1m kline typical price (O+H+L+C)/4,False,True,True,P_entry = (O + H + L + C) / 4 * (1 +/- slippage),"Requires full 1m candle close to compute H, L, C; non-operational in real-time."
+Model C (Primary),Conservative Adverse Price,1m open + 50% adverse intra-candle expansion,False,False,True,Long: Open + 0.5*(High-Open) | Short: Open - 0.5*(Open-Low),Pessimistic stress-test envelope; strictly penalizes fills worse than opening tick.
+Model D,aggTrade Tick Matching,Binance aggTrade tick stream,True,False,False,First trade tick with timestamp T >= entry_ts,Tick-level authentic execution; requires strict synchronization (T <= entry_ts + 60s).

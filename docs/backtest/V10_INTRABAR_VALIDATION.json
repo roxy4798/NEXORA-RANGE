@@ -1,0 +1,134 @@
+{
+  "timestamp_utc": "2026-09-25T17:30:05.761340+00:00",
+  "verdict": "PAPER-READY CANDIDATE",
+  "primary_candidate": {
+    "activation_atr": 0.25,
+    "trailing_atr": 0.25,
+    "v9_realistic_baseline": {
+      "wr": 83.04,
+      "pf": 3.65,
+      "net_pnl": 391.66,
+      "max_dd_pct": 4.23
+    },
+    "v10_1m_reconstruction": {
+      "wr": 82.73,
+      "pf": 3.57,
+      "net_pnl": 378.89,
+      "ending_equity": 478.89,
+      "max_dd_pct": 4.23,
+      "holdout_wr": 80.67,
+      "holdout_pf": 4.06,
+      "holdout_net_pnl": 76.44,
+      "holdout_max_dd_pct": 4.28
+    }
+  },
+  "criteria_checks": {
+    "holdout_pf_gt_1_30": true,
+    "holdout_wr_gt_75": true,
+    "holdout_expectancy_pos": true,
+    "conservative_1m_execution_profitable": true,
+    "walk_forward_positive": true,
+    "parameter_neighborhood_profitable": true,
+    "capital_conservation_verified": true,
+    "no_lookahead": true,
+    "no_data_leakage": true
+  },
+  "monte_carlo_resampling_5000_runs": [
+    {
+      "percentile": "P5",
+      "ending_equity_usd": 478.89,
+      "max_dd_pct": 2.84,
+      "losing_streak": 3
+    },
+    {
+      "percentile": "P25",
+      "ending_equity_usd": 478.89,
+      "max_dd_pct": 3.65,
+      "losing_streak": 4
+    },
+    {
+      "percentile": "Median (P50)",
+      "ending_equity_usd": 478.89,
+      "max_dd_pct": 4.43,
+      "losing_streak": 4
+    },
+    {
+      "percentile": "P75",
+      "ending_equity_usd": 478.89,
+      "max_dd_pct": 5.43,
+      "losing_streak": 5
+    },
+    {
+      "percentile": "P95",
+      "ending_equity_usd": 478.89,
+      "max_dd_pct": 7.73,
+      "losing_streak": 6
+    }
+  ],
+  "reconciliation": [
+    {
+      "metric": "Win Rate (%)",
+      "v9_theoretical": 90.55,
+      "v9_realistic": 83.04,
+      "v10_1m_reconstructed": 82.73,
+      "abs_diff_v10_vs_v9real": -0.31,
+      "pct_diff_v10_vs_v9real": -0.37
+    },
+    {
+      "metric": "Profit Factor",
+      "v9_theoretical": 4.48,
+      "v9_realistic": 3.65,
+      "v10_1m_reconstructed": 3.57,
+      "abs_diff_v10_vs_v9real": -0.08,
+      "pct_diff_v10_vs_v9real": -2.19
+    },
+    {
+      "metric": "Net PnL ($100 Start)",
+      "v9_theoretical": 775.61,
+      "v9_realistic": 391.66,
+      "v10_1m_reconstructed": 378.89,
+      "abs_diff_v10_vs_v9real": -12.77,
+      "pct_diff_v10_vs_v9real": -3.26
+    },
+    {
+      "metric": "Max Drawdown (%)",
+      "v9_theoretical": 4.5,
+      "v9_realistic": 4.23,
+      "v10_1m_reconstructed": 4.23,
+      "abs_diff_v10_vs_v9real": 0.0,
+      "pct_diff_v10_vs_v9real": 0.0
+    },
+    {
+      "metric": "Total Fees ($)",
+      "v9_theoretical": 35.75,
+      "v9_realistic": 22.3,
+      "v10_1m_reconstructed": 21.68,
+      "abs_diff_v10_vs_v9real": -0.62,
+      "pct_diff_v10_vs_v9real": -2.78
+    },
+    {
+      "metric": "Total Slippage ($)",
+      "v9_theoretical": 44.68,
+      "v9_realistic": 116.61,
+      "v10_1m_reconstructed": 113.59,
+      "abs_diff_v10_vs_v9real": -3.02,
+      "pct_diff_v10_vs_v9real": -2.59
+    },
+    {
+      "metric": "Total Funding ($)",
+      "v9_theoretical": 12.02,
+      "v9_realistic": 8.15,
+      "v10_1m_reconstructed": 8.1,
+      "abs_diff_v10_vs_v9real": -0.05,
+      "pct_diff_v10_vs_v9real": -0.61
+    },
+    {
+      "metric": "Average Holding Time (Bars)",
+      "v9_theoretical": 5.69,
+      "v9_realistic": 6.2,
+      "v10_1m_reconstructed": 6.27,
+      "abs_diff_v10_vs_v9real": 0.07,
+      "pct_diff_v10_vs_v9real": 1.13
+    }
+  ]
+}

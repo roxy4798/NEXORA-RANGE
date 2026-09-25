@@ -1,0 +1,4 @@
+dimension,v9_realistic,v10_1m_reconstructed,diff_wr,diff_pf,diff_pnl,verdict
+Primary Candidate A (0.25/0.25),"WR 83.04%, PF 3.65, PnL +$391.66","WR 82.73%, PF 3.57, PnL +$378.89",-0.31,-0.08,-12.77,EDGE FULLY PRESERVED
+Holdout OOS (Last 30%),"WR 80.67%, PF 4.06, PnL +$76.44","WR 80.67%, PF 4.06, PnL +$76.44",0.0,0.0,0.0,STRONG OOS SURVIVAL
+Bar Ambiguity Sensitivity,Policy A (PF 3.97) vs Policy B (PF 0.92),1m Adverse (PF 3.57) vs 1m Neutral (PF 3.56),0.04,0.01,0.13,CONVERGENCE VERIFIED

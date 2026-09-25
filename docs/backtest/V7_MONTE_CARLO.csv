@@ -1,0 +1,3 @@
+candidate_id,permutations_count,median_max_drawdown_pts,p5_max_drawdown_pts,p95_max_drawdown_pts,median_ending_pnl_pct,p5_ending_pnl_pct,p95_ending_pnl_pct,longest_losing_streak_median,longest_losing_streak_max
+Candidate_A_Baseline,5000,1665.93,1124.63,2596.69,1063.6,1063.6,1063.6,6,11
+Candidate_C_Balanced,5000,1638.71,1125.33,2509.06,1841.1,1841.1,1841.1,6,10

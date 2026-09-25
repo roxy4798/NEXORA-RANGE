@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXORA RANGE — 14-Day Forward Paper Trial Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js"></script>
+    <style>
+        :root {
+            --bg-base: #0B0E14;
+            --bg-card: #151922;
+            --bg-card-hover: #1C222E;
+            --border: #262D3D;
+            --accent-blue: #2979FF;
+            --accent-cyan: #00E5FF;
+            --accent-green: #00E676;
+            --accent-red: #FF1744;
+            --accent-purple: #D500F9;
+            --accent-gold: #FFD600;
+            --text-main: #F0F4F8;
+            --text-muted: #8A99AD;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+        }
+
+        .title-group h1 {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .badge-paper {
+            background: rgba(0, 229, 255, 0.15);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(0, 229, 255, 0.3);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-trial {
+            background: rgba(255, 214, 0, 0.15);
+            color: var(--accent-gold);
+            border: 1px solid rgba(255, 214, 0, 0.3);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: #1A2130;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            background: var(--accent-blue);
+            color: #FFF;
+            border-color: var(--accent-blue);
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .kpi-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-blue);
+        }
+
+        .kpi-card.green::before { background: var(--accent-green); }
+        .kpi-card.cyan::before { background: var(--accent-cyan); }
+        .kpi-card.gold::before { background: var(--accent-gold); }
+        .kpi-card.purple::before { background: var(--accent-purple); }
+
+        .kpi-title {
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .kpi-val {
+            font-size: 26px;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .kpi-sub {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        .card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            text-align: left;
+            padding: 10px 12px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+            font-weight: 500;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        tr:hover td {
+            background-color: var(--bg-card-hover);
+        }
+
+        .pos { color: var(--accent-green); }
+        .neg { color: var(--accent-red); }
+
+        .progress-bar-container {
+            width: 100%;
+            height: 8px;
+            background: #1E2533;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
+            border-radius: 4px;
+        }
+
+        .tab-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .tab-btn.active {
+            background: var(--accent-cyan);
+            color: #000;
+            font-weight: 600;
+            border-color: var(--accent-cyan);
+        }
+
+        .tag-long {
+            background: rgba(0, 230, 118, 0.15);
+            color: var(--accent-green);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .tag-short {
+            background: rgba(255, 23, 68, 0.15);
+            color: var(--accent-red);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="title-group">
+            <h1>
+                <span>NEXORA RANGE</span>
+                <span class="badge-paper">BINANCE FUTURES PAPER</span>
+                <span id="trialBadge" class="badge-trial">TRIAL DAY 1 / 14</span>
+            </h1>
+        </div>
+        <div class="nav-links">
+            <a href="/" class="nav-btn">Live Scanner</a>
+            <a href="/research" class="nav-btn">Strategy Research</a>
+            <a href="/forward" class="nav-btn active">Forward Validation</a>
+        </div>
+    </header>
+
+    <!-- TRIAL PROGRESS -->
+    <div class="card" style="margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+            <div style="font-size: 14px; font-weight: 600;">14-Day Continuous Forward Paper Trial Progress</div>
+            <div id="trialProgressText" style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent-cyan);">Day 1 of 14 (7.1%)</div>
+        </div>
+        <div class="progress-bar-container">
+            <div id="trialProgressBar" class="progress-bar" style="width: 7.1%;"></div>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); margin-top: 6px;">
+            <span>Target: 14 consecutive trading days</span>
+            <span>Real-time Binance Futures WebSocket Stream</span>
+            <span>Live Trading: STRICTLY DISABLED (Zero Risk)</span>
+        </div>
+    </div>
+
+    <!-- PRIMARY KPIS -->
+    <div class="kpi-grid">
+        <div class="kpi-card cyan">
+            <div class="kpi-title">Active Strategy</div>
+            <div class="kpi-val" style="font-size: 20px;">NEXORA A2+D</div>
+            <div class="kpi-sub">Dual EMA + ATR Expansion</div>
+        </div>
+        <div class="kpi-card green">
+            <div class="kpi-title">Net Paper PnL</div>
+            <div id="kpiNetPnl" class="kpi-val">$+0.00</div>
+            <div id="kpiBalance" class="kpi-sub">Equity: $1,000.00</div>
+        </div>
+        <div class="kpi-card gold">
+            <div class="kpi-title">Profit Factor</div>
+            <div id="kpiPf" class="kpi-val">0.00</div>
+            <div id="kpiTrades" class="kpi-sub">0 Closed Trades</div>
+        </div>
+        <div class="kpi-card purple">
+            <div class="kpi-title">Win Rate</div>
+            <div id="kpiWinRate" class="kpi-val">0.0%</div>
+            <div id="kpiAvgR" class="kpi-sub">Avg R: 0.00R</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-title">Execution Latency</div>
+            <div id="kpiLatency" class="kpi-val">25.0 ms</div>
+            <div id="kpiSlippage" class="kpi-sub">Avg Slippage: 2.0 bps</div>
+        </div>
+    </div>
+
+    <!-- STRATEGY CANDIDATE COMPARISON & DIRECTIONAL BREAKDOWN -->
+    <div class="grid-2col">
+        <!-- Variant Comparison -->
+        <div class="card">
+            <div class="section-title">⚖️ Three-Way Empirical Comparison (Identical Market Data)</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Strategy Variant</th>
+                        <th>Signals</th>
+                        <th>Trades</th>
+                        <th>Net PnL</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="variantComparisonTable">
+                    <tr>
+                        <td><strong>BASELINE</strong> (Raw Breakout)</td>
+                        <td id="baseSignals">0</td>
+                        <td id="baseTrades">0</td>
+                        <td id="basePnl">$0.00</td>
+                        <td><span style="color: var(--text-muted);">Shadow Benchmark</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>A2</strong> (Dual EMA 50/200)</td>
+                        <td id="a2Signals">0</td>
+                        <td id="a2Trades">0</td>
+                        <td id="a2Pnl">$0.00</td>
+                        <td><span style="color: var(--accent-cyan);">Shadow Filter</span></td>
+                    </tr>
+                    <tr style="background: rgba(0, 229, 255, 0.05);">
+                        <td><strong>A2+D</strong> (Dual EMA + ATR Exp)</td>
+                        <td id="a2dSignals">0</td>
+                        <td id="a2dTrades">0</td>
+                        <td id="a2dPnl">$0.00</td>
+                        <td><span style="color: var(--accent-green); font-weight: 600;">ACTIVE CANDIDATE</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 12px;">
+                * Objective empirical verification: all 3 variants evaluate the exact same incoming closed bars simultaneously.
+            </div>
+        </div>
+
+        <!-- Directional Breakdown -->
+        <div class="card">
+            <div class="section-title">📊 Candidate A2+D: LONG vs SHORT Separation</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Direction</th>
+                        <th>Trades</th>
+                        <th>Win Rate</th>
+                        <th>Profit Factor</th>
+                        <th>Net PnL</th>
+                    </tr>
+                </thead>
+                <tbody id="directionalTable">
+                    <tr>
+                        <td><span class="tag-long">LONG</span></td>
+                        <td id="longTrades">0</td>
+                        <td id="longWinRate">0.0%</td>
+                        <td id="longPf">0.00</td>
+                        <td id="longPnl">$0.00</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag-short">SHORT</span></td>
+                        <td id="shortTrades">0</td>
+                        <td id="shortWinRate">0.0%</td>
+                        <td id="shortPf">0.00</td>
+                        <td id="shortPnl">$0.00</td>
+                    </tr>
+                    <tr style="font-weight: 600; border-top: 1px solid var(--border);">
+                        <td>COMBINED (ALL)</td>
+                        <td id="allTrades">0</td>
+                        <td id="allWinRate">0.0%</td>
+                        <td id="allPf">0.00</td>
+                        <td id="allPnl">$0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="font-size: 11px; color: var(--text-muted); margin-top: 12px;">
+                * Crucial quantitative rule: SHORT metrics are never blended or assumed equivalent to LONG.
+            </div>
+        </div>
+    </div>
+
+    <!-- SYMBOL & TIMEFRAME BREAKDOWNS -->
+    <div class="grid-2col">
+        <!-- Symbol Breakdown -->
+        <div class="card">
+            <div class="section-title">🪙 Symbol Breakdown (10 Binance Futures Universe)</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Trades</th>
+                        <th>Wins</th>
+                        <th>Net PnL</th>
+                    </tr>
+                </thead>
+                <tbody id="symbolBreakdownTable">
+                    <tr><td colspan="4" style="color: var(--text-muted); text-align: center;">Awaiting closed trades...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Timeframe Breakdown -->
+        <div class="card">
+            <div class="section-title">⏱️ Timeframe Breakdown (5m, 15m, 30m, 1h, 4h)</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Timeframe</th>
+                        <th>Trades</th>
+                        <th>Wins</th>
+                        <th>Net PnL</th>
+                    </tr>
+                </thead>
+                <tbody id="timeframeBreakdownTable">
+                    <tr><td colspan="4" style="color: var(--text-muted); text-align: center;">Awaiting closed trades...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- RECENT SIGNALS LOG -->
+    <div class="card" style="margin-bottom: 24px;">
+        <div class="section-title">📡 Real-Time Paper Signals Audit Log</div>
+        <div style="overflow-x: auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Signal ID</th>
+                        <th>Timestamp</th>
+                        <th>Symbol</th>
+                        <th>TF</th>
+                        <th>Dir</th>
+                        <th>Entry</th>
+                        <th>SL</th>
+                        <th>TP</th>
+                        <th>EMA50/200</th>
+                        <th>ATR Exp</th>
+                        <th>Latency</th>
+                    </tr>
+                </thead>
+                <tbody id="signalsTable">
+                    <tr><td colspan="11" style="color: var(--text-muted); text-align: center;">Listening to real-time Binance Futures stream...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        async function fetchForwardState() {
+            try {
+                const res = await fetch('/api/forward/state');
+                if (!res.ok) return;
+                const data = await res.json();
+                renderForwardDashboard(data);
+            } catch (err) {
+                console.error("Error fetching forward trial state:", err);
+            }
+        }
+
+        function renderForwardDashboard(data) {
+            const ov = data.overview || {};
+            const perf = data.performance || {};
+            const dir = data.directional_breakdown || {};
+            const vc = data.variant_comparison || {};
+            const eq = data.execution_quality || {};
+
+            // Trial badges & progress
+            document.getElementById('trialBadge').innerText = `TRIAL DAY ${ov.trial_day || 1} / ${ov.total_trial_days || 14}`;
+            document.getElementById('trialProgressText').innerText = `Day ${ov.trial_day || 1} of ${ov.total_trial_days || 14} (${ov.trial_progress_pct || 7.1}%)`;
+            document.getElementById('trialProgressBar').style.width = `${ov.trial_progress_pct || 7.1}%`;
+
+            // KPIs
+            const netPnlEl = document.getElementById('kpiNetPnl');
+            netPnlEl.innerText = `${perf.net_pnl >= 0 ? '+$' : '-$'}${Math.abs(perf.net_pnl || 0).toFixed(2)}`;
+            netPnlEl.className = `kpi-val ${perf.net_pnl >= 0 ? 'pos' : 'neg'}`;
+            document.getElementById('kpiBalance').innerText = `Equity: $${(perf.equity || 1000).toLocaleString(undefined, {minimumFractionDigits: 2})}`;
+
+            document.getElementById('kpiPf').innerText = (perf.profit_factor || 0).toFixed(2);
+            document.getElementById('kpiTrades').innerText = `${perf.trades || 0} Closed Trades`;
+            document.getElementById('kpiWinRate').innerText = `${(perf.win_rate || 0).toFixed(1)}%`;
+            document.getElementById('kpiAvgR').innerText = `Avg R: ${(perf.average_r || 0).toFixed(2)}R`;
+
+            document.getElementById('kpiLatency').innerText = `${(eq.average_latency_ms || 25).toFixed(1)} ms`;
+            document.getElementById('kpiSlippage').innerText = `Avg Slippage: ${(eq.average_slippage_bps || 2).toFixed(1)} bps`;
+
+            // Variant Comparison
+            if (vc.BASELINE) {
+                document.getElementById('baseSignals').innerText = vc.BASELINE.signals;
+                document.getElementById('baseTrades').innerText = vc.BASELINE.trades;
+                document.getElementById('basePnl').innerText = `$${vc.BASELINE.net_pnl.toFixed(2)}`;
+            }
+            if (vc.A2) {
+                document.getElementById('a2Signals').innerText = vc.A2.signals;
+                document.getElementById('a2Trades').innerText = vc.A2.trades;
+                document.getElementById('a2Pnl').innerText = `$${vc.A2.net_pnl.toFixed(2)}`;
+            }
+            if (vc.A2+D || vc["A2+D"]) {
+                const a2d = vc["A2+D"];
+                document.getElementById('a2dSignals').innerText = a2d.signals;
+                document.getElementById('a2dTrades').innerText = a2d.trades;
+                document.getElementById('a2dPnl').innerText = `$${a2d.net_pnl.toFixed(2)}`;
+            }
+
+            // Directional breakdown
+            if (dir.LONG) {
+                document.getElementById('longTrades').innerText = dir.LONG.trades;
+                document.getElementById('longWinRate').innerText = `${dir.LONG.win_rate.toFixed(1)}%`;
+                document.getElementById('longPf').innerText = dir.LONG.profit_factor.toFixed(2);
+                document.getElementById('longPnl').innerText = `$${dir.LONG.net_pnl.toFixed(2)}`;
+            }
+            if (dir.SHORT) {
+                document.getElementById('shortTrades').innerText = dir.SHORT.trades;
+                document.getElementById('shortWinRate').innerText = `${dir.SHORT.win_rate.toFixed(1)}%`;
+                document.getElementById('shortPf').innerText = dir.SHORT.profit_factor.toFixed(2);
+                document.getElementById('shortPnl').innerText = `$${dir.SHORT.net_pnl.toFixed(2)}`;
+            }
+            if (dir.ALL) {
+                document.getElementById('allTrades').innerText = dir.ALL.trades;
+                document.getElementById('allWinRate').innerText = `${dir.ALL.win_rate.toFixed(1)}%`;
+                document.getElementById('allPf').innerText = dir.ALL.profit_factor.toFixed(2);
+                document.getElementById('allPnl').innerText = `$${dir.ALL.net_pnl.toFixed(2)}`;
+            }
+
+            // Symbol breakdown
+            const symBody = document.getElementById('symbolBreakdownTable');
+            const symKeys = Object.keys(data.symbol_breakdown || {});
+            if (symKeys.length > 0) {
+                symBody.innerHTML = symKeys.map(k => {
+                    const row = data.symbol_breakdown[k];
+                    return `<tr>
+                        <td><strong>${k}</strong></td>
+                        <td>${row.trades}</td>
+                        <td>${row.wins}</td>
+                        <td class="${row.net_pnl >= 0 ? 'pos' : 'neg'}">$${row.net_pnl.toFixed(2)}</td>
+                    </tr>`;
+                }).join('');
+            }
+
+            // Timeframe breakdown
+            const tfBody = document.getElementById('timeframeBreakdownTable');
+            const tfKeys = Object.keys(data.timeframe_breakdown || {});
+            if (tfKeys.length > 0) {
+                tfBody.innerHTML = tfKeys.map(k => {
+                    const row = data.timeframe_breakdown[k];
+                    return `<tr>
+                        <td><strong>${k}</strong></td>
+                        <td>${row.trades}</td>
+                        <td>${row.wins}</td>
+                        <td class="${row.net_pnl >= 0 ? 'pos' : 'neg'}">$${row.net_pnl.toFixed(2)}</td>
+                    </tr>`;
+                }).join('');
+            }
+
+            // Signals Log
+            const sigs = data.recent_signals || [];
+            const sigBody = document.getElementById('signalsTable');
+            if (sigs.length > 0) {
+                sigBody.innerHTML = sigs.slice(-10).reverse().map(s => {
+                    const isLong = s.direction === 'LONG';
+                    const tag = isLong ? '<span class="tag-long">LONG</span>' : '<span class="tag-short">SHORT</span>';
+                    const timeStr = new Date(s.timestamp).toLocaleTimeString();
+                    return `<tr>
+                        <td><code>${s.signal_id}</code></td>
+                        <td>${timeStr}</td>
+                        <td><strong>${s.symbol}</strong></td>
+                        <td>${s.timeframe}</td>
+                        <td>${tag}</td>
+                        <td>${s.entry_price.toFixed(4)}</td>
+                        <td>${s.stop_loss.toFixed(4)}</td>
+                        <td>${s.take_profit.toFixed(4)}</td>
+                        <td>${s.filter_A2 ? '✅ PASS' : '❌ FAIL'}</td>
+                        <td>${s.filter_D ? '✅ PASS' : '❌ FAIL'}</td>
+                        <td>${s.signal_latency.toFixed(1)}ms</td>
+                    </tr>`;
+                }).join('');
+            }
+        }
+
+        // Poll every 3 seconds
+        fetchForwardState();
+        setInterval(fetchForwardState, 3000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+scenario,funding_rate_per_bar_pct,trades,gross_trading_pnl_usd,fees_usd,slippage_usd,funding_usd,net_pnl_usd,wr,pf,max_dd_pct
+Zero Funding,0.0,2720,756.72,31.21,111.11,0.0,614.4,84.82,4.11,4.68
+V8 Baseline (0.01% / 8h),0.005,2720,737.08,30.44,108.37,10.31,587.97,84.08,3.97,4.91
+2x V8 Baseline (0.02% / 8h),0.01,2720,717.97,29.69,105.7,20.13,562.46,83.31,3.83,5.14
+5x V8 Baseline (0.05% / 8h),0.025,2720,663.74,27.54,98.11,46.9,491.18,81.73,3.43,5.83

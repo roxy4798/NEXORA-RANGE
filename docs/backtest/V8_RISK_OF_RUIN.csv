@@ -1,0 +1,4 @@
+candidate,prob_fall_below_90usd,prob_fall_below_80usd,prob_fall_below_70usd,prob_fall_below_50usd,prob_fall_below_25usd
+Candidate_A,0.0,0.0,0.0,0.0,0.0
+Candidate_B,0.02,0.0,0.0,0.0,0.0
+Candidate_C,0.74,0.02,0.0,0.0,0.0

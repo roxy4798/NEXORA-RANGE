@@ -1,0 +1,11 @@
+period,filter,trades,profit_factor,net_pnl_usd,avg_trade_usd,removed_trades_count,removed_pnl_usd,profit_share_removed_pct
+DEVELOPMENT,Baseline (All Trades),443,0.99,-129.93,-0.29,0,0.0,0.0
+DEVELOPMENT,Excl_Top_1_Winner,442,0.88,-2067.98,-4.68,1,1938.05,11.1
+DEVELOPMENT,Excl_Top_2.5pct_Winners,439,0.76,-4161.6,-9.48,4,4031.67,23.1
+DEVELOPMENT,Excl_Top_5pct_Winners,436,0.7,-5318.87,-12.2,7,5188.94,29.8
+DEVELOPMENT,Excl_Top_10pct_Winners,428,0.58,-7331.03,-17.13,15,7201.1,41.3
+HOLDOUT,Baseline (All Trades),47,1.01,12.47,0.27,0,0.0,0.0
+HOLDOUT,Excl_Top_1_Winner,46,0.74,-492.15,-10.7,1,504.62,26.4
+HOLDOUT,Excl_Top_2.5pct_Winners,46,0.74,-492.15,-10.7,1,504.62,26.4
+HOLDOUT,Excl_Top_5pct_Winners,46,0.74,-492.15,-10.7,1,504.62,26.4
+HOLDOUT,Excl_Top_10pct_Winners,45,0.62,-720.74,-16.02,2,733.21,38.4

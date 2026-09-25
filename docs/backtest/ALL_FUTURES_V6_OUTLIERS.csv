@@ -1,0 +1,6 @@
+model,filter,pf,mean_return,top_share_removed_pct
+Fixed_48B_E5,Original,1.08,0.56,0.0
+Fixed_48B_E5,Excl_Top_1_Winner,0.94,-0.43,12.9
+Fixed_48B_E5,Excl_Top_2.5pct,0.07,-6.71,93.9
+Fixed_48B_E5,Excl_Top_5pct,0.01,-7.18,98.9
+Fixed_48B_E5,Excl_Top_10pct,0.0,-7.43,99.9

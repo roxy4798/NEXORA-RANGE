@@ -1,0 +1,5576 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-25T09:43:19.966990+00:00",
+    "timeframe": "4h",
+    "total_usable_symbols": 520,
+    "total_candles": 531894,
+    "min_candles_required": 200,
+    "selection_criteria": "quoteAsset=USDT, contractType=PERPETUAL, status=TRADING, candle_count >= 200"
+  },
+  "usable_symbols": [
+    {
+      "symbol": "0GUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7790079.7881,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\0GUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000000BOBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 675734.52109,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000000BOBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000000MOGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1618675.91705,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000000MOGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000BONKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 44406486.083248,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000BONKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000CATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3144341.771822,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000CATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000CHEEMSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 662253.7600462,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000CHEEMSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000FLOKIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8292975.94091,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000FLOKIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000LUNCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3741314.49343,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000LUNCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000PEPEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 346849133.7965036,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000PEPEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "1000RATSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1514444.80373,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000RATSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000SATSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1639318.96078595,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000SATSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000SHIBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 45085711.426863,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000SHIBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2140764.04135,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1000XECUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1INCHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2683947.19647,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1INCHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "1MBABYDOGEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1518653.9104748,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\1MBABYDOGEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "2ZUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 16377630.25689,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\2ZUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "4USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 11092732.005313,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\4USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 128028671.08,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AAVEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ACEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 26642244.883858,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ACEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ACHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5783654.039177,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ACHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ACTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1134141.941836,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ACTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ACUUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2343308.90938,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ACUUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ADAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 240912551.692,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ADAUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "AEROUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 29465300.71621,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AEROUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AEVOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1272111.746528,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AEVOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AGLDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1609750.2704,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AGLDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AGTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4734202.030401,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AGTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 969456.52749,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AIGENSYNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1725839.59671,
+      "candle_count": 894,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AIGENSYNUSDT_4h_894.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4396162.84994,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AIOTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1145728.45399,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AIOTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AIOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1497486.58038,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AIOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AIXBTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2734090.32567,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AIXBTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AKEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 169234061.668517,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AKEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "AKTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4669172.80296,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AKTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALCHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2460379.71667,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALCHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 22708081.781939,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALGOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALICEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9249955.19306,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALICEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALLOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12288111.3897,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALLOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1077484.4324,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALPINEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 613350.98804,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALPINEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ALTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2828225.262962,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ALTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ANIMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1070037.732267,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ANIMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ANKRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3295532.610428,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ANKRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "APEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7520131.8377,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\APEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "API3USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1909702.851,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\API3USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "APRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3266545.5316,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\APRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "APTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 66329740.14387,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\APTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 160275498.839359,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARBUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ARCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3125020.21571,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1377429.06445,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARKMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4298489.2513,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARKMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 65630618.5489,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARPAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1676203.862071,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARPAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 20472610.829,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ARXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 21120427.5472,
+      "candle_count": 566,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ARXUSDT_4h_566.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ASRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 653728.71585,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ASRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ASTERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 75033238.3605,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ASTERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ASTRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1280808.359941,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ASTRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ATHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3497660.788531,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ATHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 23410579.289,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ATOMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1114130.93643,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AUCTIONUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1811396.25922,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AUCTIONUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3463875.45315,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AVAAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2242449.967343,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AVAAIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AVAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5623675.33311,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AVAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 237443928.732,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AVAXUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "AVNTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2958041.81791,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AVNTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AWEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 884459.90547,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AWEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AXLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1446133.540508,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AXLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AXSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 28606442.5239,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AXSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "AZTECUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2156061.64511,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\AZTECUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "B2USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7864834.0474,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\B2USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BABYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2642227.70094,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BABYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BANANAS31USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1540494.672735,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BANANAS31USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BANANAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 789474.6174,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BANANAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BANDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 751695.8876,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BANDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BANKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12000493.37735,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BANKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BANUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 766396.00075,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BANUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BARDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 974588.3802,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BARDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BASEDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2381260.4872,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BASEDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BASUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1380615.948707,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BASUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1714951.423723,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 21475154.460811,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BCHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 282482325.63,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BCHUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BEAMXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10631132.715798,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BEAMXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BEATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8800272.0483,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BEATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BELUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1014073.60878,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BELUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BERAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4039141.69047,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BERAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BICOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4614181.30772,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BICOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BIGTIMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2283353.473342,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BIGTIMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BILLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6213757.92134,
+      "candle_count": 847,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BILLUSDT_4h_847.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BIOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10624228.9962,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BIOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BIRBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1470121.13994,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BIRBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BLESSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4317798.99382,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BLESSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BLUAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 873951.993315,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BLUAIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BLURUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1609137.79711,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BLURUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BMTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1863802.13463,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BMTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BNBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 349795121.693,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BNBUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BNTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 645896.9087,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BNTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BOMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 18811826.1780448,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BOMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1843874.267632,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BRETTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BREVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 806159.29634,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BREVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BROCCOLI714USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 215368528.51728,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BROCCOLI714USDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BROCCOLIF3BUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1976467.007882,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BROCCOLIF3BUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 98117294.7459,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BRUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BSBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2956389.86337,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BSBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BSVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4759963.386,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BSVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BTCDOMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1594797.2,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BTCDOMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BTCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 11782160899.0,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BTCUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BTRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13817490.84927,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BTRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BTWUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 146154976.70055,
+      "candle_count": 676,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BTWUSDT_4h_676.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "BULLAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 18880810.617522,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BULLAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "BUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1827694.0769,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\BUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "C98USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1451553.77103,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\C98USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 32214633.558,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CAKEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CAPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10239940.8293,
+      "candle_count": 541,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CAPUSDT_4h_541.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CARVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1288547.28628,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CARVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CATIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1568528.45295,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CATIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 11116052.92902,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CELOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1415412.214672,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CELOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CELRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7680863.413976,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CELRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CETUSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2977593.70712,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CETUSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CFGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13871389.1652,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CFGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CFXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4134094.68995,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CFXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CGPTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1127822.29965,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CGPTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CHILLGUYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1616045.732514,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CHILLGUYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CHIPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 24344875.47109,
+      "candle_count": 974,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CHIPUSDT_4h_974.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CHRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5172306.07894,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CHRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CHZUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9517082.34885,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CHZUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CKBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2426465.6463215,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CKBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CLANKERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 883720.9592,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CLANKERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CLOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2343614.09367,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CLOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1488999.6352,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COAIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COLLECTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2759690.87336,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COLLECTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COMPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13484717.82,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COMPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COOKIEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1574557.116482,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COOKIEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COTIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 18697282.68853,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COTIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "COWUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1839890.3931,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\COWUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CROSSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3062072.2104,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CROSSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CRVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 32141470.49393,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CRVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CTKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 593253.0238,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CTKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CTRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1097403.63665,
+      "candle_count": 721,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CTRUSDT_4h_721.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CTSIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1696024.52658,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CTSIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2192766.53768,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CVCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 22433050.22573,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CVCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CVXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1705679.078,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CVXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CYBERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2623235.1219,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CYBERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "CYSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 15446360.7133,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\CYSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DASHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 84793448.67,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DASHUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "DATAIPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8439711.9139,
+      "candle_count": 506,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DATAIPUSDT_4h_506.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6061731.15875,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DEEPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DEXEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4951795.28326,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DEXEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1571035.2497,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DODOXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1554956.041114,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DODOXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 612648706.11213,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOGEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "DOGSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1650543.30391234,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOGSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DOLOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1051356.20524,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOLOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DOODUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1601770.643683,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOODUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DOSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1935791.7326,
+      "candle_count": 270,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOSUSDT_4h_270.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DOTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 74936617.84893,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DOTUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "DRIFTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2741263.91508,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DRIFTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DUSKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3270351.37374,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DUSKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DYDXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4355744.70858,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DYDXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "DYMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12543114.856304,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\DYMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EDENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8649302.94883,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EDENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EDGEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5074892.9515,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EDGEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EDUUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1692255.45336,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EDUUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EGLDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 11069182.828,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EGLDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 17838039.00185,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EIGENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ELSAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 828352.95777,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ELSAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ENAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 350269031.3862,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ENAUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ENJUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2704328.41882,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ENJUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ENSOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2067593.82381,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ENSOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ENSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13619754.156,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ENSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EPICUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4047753.25217,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EPICUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ERAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1755932.65616,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ERAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ESPORTSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5274149.31033,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ESPORTSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ESPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3832118.57975,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ESPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ETCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 192169428.117,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ETCUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 22405587.05054,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ETHFIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8602854180.99,
+      "candle_count": 10000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ETHUSDT_4h_10000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ETHWUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 880975.7161,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ETHWUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EULUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3537310.3834,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EULUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "EVAAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3603091.29757,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\EVAAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 28381335.827,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FARTCOINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FETUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 131377009.9564,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FETUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "FFUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9180109.8841,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FFUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FHEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3292894.64897,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FHEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FIDAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1645899.89493,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FIDAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3321336.878961,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FIGHTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FILUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 115414111.43349,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FILUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "FLOCKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 40749995.51848,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FLOCKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3921800.723931,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FLOWUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FLUIDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 854571.405,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FLUIDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FLUXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1043365.92133,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FLUXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FOGOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3211239.472343,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FOGOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FOLKSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3888715.2884,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FOLKSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FORMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8005750.00438,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FORMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FRAXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1151081.4451,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FRAXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "FUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2319129.585363,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\FUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GALAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 14828711.211362,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GALAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GASUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2933111.4339,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GASUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GENIUSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4760951.014,
+      "candle_count": 975,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GENIUSUSDT_4h_975.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GIGGLEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 17609225.5086,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GIGGLEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GLMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 904900.1918,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GLMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GMTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2349832.802989,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GMTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GMXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1363421.77995,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GMXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GOATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1859174.24932,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GOATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GPSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4640614.730846,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GPSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 19206576.933,
+      "candle_count": 511,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GRAMUSDT_4h_511.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GRASSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 14634027.37902,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GRASSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GRIFFAINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1578244.323838,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GRIFFAINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GRTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7597633.24062,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GRTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GRVTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4680978.5822,
+      "candle_count": 336,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GRVTUSDT_4h_336.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GTCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 723814.542062,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GTCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GUAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 636109.40458,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GUAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GUNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1526410.931854,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GUNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13367252.121375,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "GWEIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2655982.29177,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\GWEIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HAEDALUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 810011.7939,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HAEDALUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HANAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1501510.92661,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HANAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HBARUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 49407273.42441,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HBARUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HEIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2863016.073998,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HEIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HEMIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6301391.90833,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HEMIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HIVEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2637835.29512,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HIVEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HMSTRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1636482.2894821,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HMSTRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HOLOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2262320.33723,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HOLOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HOMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5684091.021889,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HOMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HOTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1453285.6817564,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HOTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HUMAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8632522.04516,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HUMAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 25161585.60563,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HYPERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1542358.84984,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HYPERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 775142381.4618,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\HYPEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ICNTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 806267.7585,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ICNTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ICPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 63100904.911,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ICPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1008262.5464,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IDOLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2287841.30376,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ILVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2029293.0094,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ILVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IMXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2799154.4321,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IMXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "INITUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5228215.512,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\INITUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "INJUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 114309352.9226,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\INJUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "INUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1123847.1986,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\INUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "INXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1039254.475948,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\INXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IOSTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10771999.4989217,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IOSTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IOTAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4650059.781268,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IOTAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IOTXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1978152.703951,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IOTXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3006080.47928,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "IRYSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 871749.23262,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\IRYSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5679547.463535,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JASMYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JCTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1100549.936445,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JCTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1073104.53527,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JELLYJELLYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JOEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2344166.64359,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JOEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JSTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5642976.39308,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JSTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JTOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 22930043.4308,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JTOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "JUPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 33247075.3157,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\JUPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KAIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1767322.74587,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KAIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KAITOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13988746.49079,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KAITOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KASUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5660963.84422,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KASUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2019387.603463,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KAVAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5330212.494138,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KAVAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KERNELUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4813993.63422,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KERNELUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KGENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1469275.36912,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KGENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KITEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5747431.08393,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KITEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KMNOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6974270.48493,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KMNOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KNCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1130426.1543,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KNCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KOMAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1906649.228399,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KOMAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "KSMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2366520.696,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\KSMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LABUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 16902019.44552,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LABUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6844964.502895,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LAYERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1428605.515084,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LAYERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LDOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 59168523.7513,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LDOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LIGHTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1918937.8334,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LIGHTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LINEAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4236715.571585,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LINEAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LINKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 356931910.347,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LINKUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "LISTAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1407147.87653,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LISTAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LITUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 120120085.82113,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LITUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "LPTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4222994.714,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LPTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LQTYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 846481.02935,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LQTYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LSKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 379109624.64588,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LSKUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "LTCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 579154700.56,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LTCUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "LUMIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1252921.967665,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LUMIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LUNA2USDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5106604.17262,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LUNA2USDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "LYNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2074523.02256,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\LYNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MAGICUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2521643.829468,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MAGICUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MAGMAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4085950.1119,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MAGMAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MANAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7725059.70546,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MANAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1898582.621585,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MANTAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MANTRAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12059806.424714,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MANTRAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MASKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2166643.5081,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MASKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1257135.01633,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MAVIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MAVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 847598.560227,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MAVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MEGAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2865448.46828,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MEGAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MELANIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2388013.689594,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MELANIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MEMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2963309.4846129,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MEMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MERLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1576550.21005,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MERLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "METISUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1396406.3704,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\METISUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "METUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 17559037.5694,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\METUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4276395.788774,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MEWUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1890727.9108642,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MEWUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MINAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 15135281.04912,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MINAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MIRAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2679790.00465,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MIRAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MITOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2288760.09373,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MITOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MMTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2054337.7582,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MMTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MOCAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 687661.126164,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MOCAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MONUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12502717.89234,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MONUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MOODENGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12174848.87315,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MOODENGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 33970087.53625,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MORPHOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6537033.800252,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MOVEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MOVRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10410251.271494,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MOVRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MTLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3520787.22,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MTLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MUBARAKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 57641977.23543,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MUBARAKUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "MUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1123595.5747,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "MYXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8106622.6346,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\MYXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NAORISUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1030524.5185,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NAORISUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NEARUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 945816786.64,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NEARUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "NEIROUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6995012.05151018,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NEIROUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NEOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3839985.469,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NEOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NEWTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1112940.50838,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NEWTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NIGHTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2550014.7146,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NIGHTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NILUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 283752323.562653,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NILUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "NMRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2060659.9715,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NMRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NOMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 89103378.606517,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NOMUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "NOTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2014918.9775758,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NOTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "NXPCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1717810.0354,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\NXPCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OGNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 736811.64525,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OGNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 862831.2633,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1075866296.98044,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ONDOUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ONEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 174144772.8022067,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ONEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ONGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9191720.75647,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ONGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ONTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2336576.13547,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ONTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ONUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1717065.4513,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ONUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OPENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1919184.2166,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OPENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OPGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2343902.735,
+      "candle_count": 936,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OPGUSDT_4h_936.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OPNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3738378.4628,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OPNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 52432269.645465,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ORCAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4925881.9616,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ORCAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ORDERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 786761.11727,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ORDERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ORDIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 11613257.815,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ORDIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "OUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1757041.4644,
+      "candle_count": 559,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\OUSDT_4h_559.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PARTIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3207503.3716,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PARTIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 76925003.5856,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PAXGUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 37830001.256,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PENDLEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 128869464.88647,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PENGUUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "PEOPLEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9849965.609372,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PEOPLEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PHAROSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5602067.9898,
+      "candle_count": 806,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PHAROSUSDT_4h_806.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PHAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 43485440.87193,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PHAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PIEVERSEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4365934.9665,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PIEVERSEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PIPPINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2936157.22928,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PIPPINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PIXELUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7129031.768341,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PIXELUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PLAYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 27147449.55059,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PLAYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PLUMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 27952217.3365,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PLUMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PNUTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4603474.21496,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PNUTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "POLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 26572862.64423,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\POLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "POLYXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2471986.86732,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\POLYXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "POPCATUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3275265.34263,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\POPCATUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PORTALUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2945379.547643,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PORTALUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "POWERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3377823.26691,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\POWERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "POWRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1695398.4068,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\POWRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PRLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1285754.0015,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PRLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PROMPTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1121707.35688,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PROMPTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PROMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 29326547.282,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PROMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PROVEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4121934.54851,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PROVEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PTBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7565630.2129774,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PTBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PUMPBTCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 558867.52312,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PUMPBTCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 135831927.515929,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PUMPUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "PUNDIXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1164387.61223,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PUNDIXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 21224164.68749,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\PYTHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "QNTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 191844633.45,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\QNTUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "QTUMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3506949.55864,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\QTUMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "QUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1036040.336007,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\QUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RAREUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1032855.21035,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RAREUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RAVEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3097616.0126,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RAVEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RAYSOLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 71283501.5796,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RAYSOLUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "RECALLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 591734.11048,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RECALLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "REDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4398770.9521,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\REDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 30228963.0603,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RENDERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RESOLVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1066603.58647,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RESOLVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "REUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7253173.7946,
+      "candle_count": 594,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\REUSDT_4h_594.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "REZUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4403828.36927,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\REZUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RIFUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2411374.95855,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RIFUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RIVERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 24042981.58,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RIVERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RLCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 776771.4134,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RLCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ROBOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2115108.60349,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ROBOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RONINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3608686.078499,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RONINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ROSEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2635612.774006,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ROSEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RPLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 660327.9559,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RPLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RSRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3662355.485853,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RSRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5705633.138,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RUNEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "RVNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3539752.332069,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\RVNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SAFEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1102126.68496,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SAFEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SAGAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 420888732.706629,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SAGAUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "SAHARAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4140747.158234,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SAHARAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SANDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 22151453.30735,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SANDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SANTOSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 729318.6279,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SANTOSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SAPIENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1459354.51249,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SAPIENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SCRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1299407.28405,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SCRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SEIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 47507378.82979,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SEIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SENTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4168167.11479,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SENTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SFPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 580776.7828,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SFPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SHELLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1751793.90313,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SHELLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SIGNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2025959.167212,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SIGNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SIRENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2861392.74882,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SIRENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SKLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3113890.381361,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SKLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SKRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3018372.435159,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SKRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SKYAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2703147.47936,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SKYAIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SKYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 13143666.59248,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SKYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SLPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1535699.7090333,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SLPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SLXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3337699.59193,
+      "candle_count": 698,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SLXUSDT_4h_698.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SNXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7407135.6297,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SNXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SOLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2293870182.302,
+      "candle_count": 10000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SOLUSDT_4h_10000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "SOLVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1179063.002014,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SOLVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SOMIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1384938.5416,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SOMIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SONICUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5202755.429423,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SONICUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SOONUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1476160.1299,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SOONUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SOPHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4832236.083277,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SOPHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SPACEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1300296.971339,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SPACEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SPELLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1073781.0274056,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SPELLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SPKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4384485.01242,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SPKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SPORTFUNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 525256.52349,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SPORTFUNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SPXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12374296.6128,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SPXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SQDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 883022.71925,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SQDUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SSVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2260217.48824,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SSVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STABLEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3613680.465705,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STABLEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STARUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2990947.22658,
+      "candle_count": 806,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STARUSDT_4h_806.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STBLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3046158.58431,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STBLUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STEEMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 10333668.44765,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STEEMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1794254.79439,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STRKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 16128033.655612,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STRKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "STXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9649608.3506,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\STXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SUIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 493951178.74648,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SUIUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "SUNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 816087.698222,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SUNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SUPERUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4462521.81228,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SUPERUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6180250.27133,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6727049.8167,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SUSHIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SWARMSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1547606.298934,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SWARMSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SXTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2342551.075442,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SXTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SYNUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 20647184.04173,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SYNUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 9305763.69957,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\SYRUPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TACUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2319193.476509,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TACUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TAGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1510021.905,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TAGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1220688.52427,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TAIKOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TAKEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 68122993.21578,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TAKEUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "TAOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 286319457.58,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TAOUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "TAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 513119.39988,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "THETAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3089220.8865,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\THETAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "THEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2898551.684549,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\THEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 52433999.6515,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TLMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2673116.069979,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TLMUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TNSRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1933790.92436,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TNSRUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TOSHIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1100605.7636349,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TOSHIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TOWNSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1236735.768784,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TOWNSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRADOORUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1269259.9698,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRADOORUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 14673007.474,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TREEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2106578.16224,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TREEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRIAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4526153.273083,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRIAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 151675697.17068,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRUMPUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "TRUSTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1464888.49492,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRUSTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRUTHUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1486387.820795,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRUTHUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TRXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 49347887.33692,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TRXUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TSTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 21061020.439085,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TSTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TURBOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2965375.0112969,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TURBOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TURTLEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 900338.19324,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TURTLEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6494934.954263,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TUTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 53323440.05484,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TUTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "TWTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2116920.2204,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\TWTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "UAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 12027858.7828,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\UAIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "UBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3840585.7899,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\UBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "UMAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2301053.2846,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\UMAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "UNIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 366331092.53,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\UNIUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "USDCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2446119.146197,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\USDCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "USELESSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 64016509.98707,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\USELESSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "USTCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 829746.618202,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\USTCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "USUALUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3403996.494778,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\USUALUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "USUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 7052951.952591,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\USUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VANAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1041136.659738,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VANAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VELODROMEUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1947995.22532,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VELODROMEUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VELVETUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6558188.06369,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VELVETUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VETUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 14385944.695597,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VETUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 48976537.12672,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VIRTUALUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VTHOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 18233301.0050056,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VTHOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "VVVUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 54581471.03296,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\VVVUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WALUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2849007.17118,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WALUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WAXPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8604911.651304,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WAXPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WCTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1816517.36924,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WCTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WETUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1242326.26803,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WETUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WIFUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 30280746.0421,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WIFUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WLDUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 243248842.9878,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WLDUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 31163772.90528,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WLFIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WOOUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1215756.20019,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WOOUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "WUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3227160.5992553,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\WUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XAIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 151273832.642912,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XAIUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "XANUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1792129.191116,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XANUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 60762401.04,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XAUTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XLMUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 169687838.37145,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XLMUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "XMRUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 82368420.3,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XMRUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "XNYUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1797366.141777,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XNYUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XPINUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1161319.782176,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XPINUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XPLUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 362312106.48473,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XPLUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "XRPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1683608284.4553,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XRPUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "XTZUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 5031056.68801,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XTZUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XVGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2018384.938201,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XVGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "XVSUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 732242.7013,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\XVSUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "YBUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 820197.71522,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\YBUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "YFIUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3349149.5,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\YFIUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "YGGUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2733571.60292,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\YGGUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZAMAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 35728064.1427,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZAMAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZBTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2805133.3295,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZBTUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZECUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2043949600.18,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZECUSDT_4h_1000.json",
+      "was_cached": true
+    },
+    {
+      "symbol": "ZENUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 21210333.635,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZENUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZEREBROUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 872826.446881,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZEREBROUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZESTUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3878309.23318,
+      "candle_count": 678,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZESTUSDT_4h_678.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZETAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 8463618.18754,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZETAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZILUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 4234524.498163,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZILUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZKCUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2067847.64527,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZKCUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZKPUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 2033875.60483,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZKPUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZKUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 6575433.817911,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZKUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZORAUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 3570519.919068,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZORAUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZROUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 59913306.3189,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZROUSDT_4h_1000.json",
+      "was_cached": false
+    },
+    {
+      "symbol": "ZRXUSDT",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT",
+      "volume_24h": 1103011.7689,
+      "candle_count": 1000,
+      "file_path": "C:\\NEXORA RANGE\\data\\research_klines\\ZRXUSDT_4h_1000.json",
+      "was_cached": false
+    }
+  ],
+  "excluded_insufficient_data": [
+    {
+      "symbol": "MARSCOINUSDT",
+      "reason": "Insufficient historical candles (145 < 200)",
+      "candle_count": 145
+    },
+    {
+      "symbol": "PONSUSDT",
+      "reason": "Insufficient historical candles (116 < 200)",
+      "candle_count": 116
+    }
+  ],
+  "excluded_non_eligible": [
+    {
+      "symbol": "OMGUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "WAVESUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "MKRUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "DEFIUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "BALUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "ICXUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "STORJUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "BLZUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "FTMUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "FLMUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "RENUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "LRCUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "OCEANUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "ALPHAUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "UNFIUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "REEFUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "XEMUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "LINAUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "STMXUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "DENTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "NKNUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "SCUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "DGBUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "BAKEUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "RAYUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "ATAUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "KLAYUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "FTTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "DARUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "STGUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "FXSUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "HOOKUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "HIGHUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "AGIXUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "PHBUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "BNXUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "PERPUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "TRUUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "AMBUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "LEVERUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "RDNTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "HFTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "ETHBTC",
+      "reason": "Non-USDT quote asset",
+      "status": "TRADING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "BTC"
+    },
+    {
+      "symbol": "IDEXUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "RADUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "KEYUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "COMBOUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "MDTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "OXTUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    },
+    {
+      "symbol": "HIFIUSDT",
+      "reason": "Non-trading contract status",
+      "status": "SETTLING",
+      "contract_type": "PERPETUAL",
+      "quote_asset": "USDT"
+    }
+  ]
+}

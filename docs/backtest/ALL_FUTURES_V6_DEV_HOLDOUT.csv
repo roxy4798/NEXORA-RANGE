@@ -1,0 +1,3 @@
+period,event_count,mfe_48b_mean,mfe_48b_median,mae_48b_mean,mae_48b_median,close_ret_48b_mean,close_ret_48b_median,hit_1r_pct,hit_2r_pct,hit_3r_pct,hit_5r_pct
+DEVELOPMENT_70pct,10803,13.38,8.15,-14.14,-8.53,-0.21,-0.76,48.5,45.2,37.7,22.3
+HOLDOUT_30pct,4625,15.81,8.05,-14.37,-8.86,-1.23,-1.18,53.4,47.3,40.0,26.3

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "research_phase": "NEXORA Out-of-Sample & Walk-Forward Validation V4",
+    "universe_symbols": 520,
+    "total_signals": 15434,
+    "split": {
+      "development_pct": 70.0,
+      "holdout_pct": 30.0,
+      "development_signals": 10803,
+      "holdout_signals": 4631,
+      "development_start": "2022-03-17 00:00",
+      "development_end": "2026-08-03 16:00",
+      "holdout_start": "2026-08-03 16:00",
+      "holdout_end": "2026-09-25 08:00"
+    },
+    "capital_model": {
+      "initial_equity": 10000.0,
+      "allocation_pct": 0.1,
+      "position_notional": 1000.0,
+      "leverage": "NONE",
+      "max_concurrency": 5
+    }
+  },
+  "performance_summary": {
+    "dev_pf_range": [
+      0.7249,
+      1.2842
+    ],
+    "hold_pf_range": [
+      0.3089,
+      4.0834
+    ],
+    "dev_pnl_range": [
+      -5185.36,
+      3311.0
+    ],
+    "hold_pnl_range": [
+      -3183.77,
+      1645.31
+    ],
+    "scenarios_pf_gt_1": {
+      "development": 16,
+      "holdout": 25
+    },
+    "stability_classification": {
+      "PF > 1 (Both)": 11,
+      "PF < 1 (Both)": 42,
+      "PF > 1 -> PF < 1": 5,
+      "PF < 1 -> PF > 1": 14
+    }
+  },
+  "bootstrap_holdout_5000": {
+    "profit_factor": {
+      "p5": 0.4722,
+      "p25": 0.7362,
+      "p50": 0.9909,
+      "p75": 1.307,
+      "p95": 1.919
+    },
+    "avg_trade_usd": {
+      "p5": -25.38,
+      "p25": -11.36,
+      "p50": -0.33,
+      "p75": 11.26,
+      "p95": 29.77
+    },
+    "win_rate": {
+      "p5": 23.4,
+      "p25": 29.79,
+      "p50": 34.04,
+      "p75": 38.3,
+      "p95": 44.68
+    },
+    "total_pnl_usd": {
+      "p5": -1192.93,
+      "p25": -533.73,
+      "p50": -15.73,
+      "p75": 529.37,
+      "p95": 1399.24
+    }
+  },
+  "symbol_dispersion": {
+    "development": {
+      "period": "DEVELOPMENT",
+      "active_symbols": 68,
+      "profitable_symbols": 16,
+      "losing_symbols": 52,
+      "top_5_concentration_pct": 79.0,
+      "top_10_concentration_pct": 82.6
+    },
+    "holdout": {
+      "period": "HOLDOUT",
+      "active_symbols": 38,
+      "profitable_symbols": 12,
+      "losing_symbols": 26,
+      "top_5_concentration_pct": 23.4,
+      "top_10_concentration_pct": 40.4
+    }
+  },
+  "audit": {
+    "status": "PASS",
+    "details": []
+  }
+}

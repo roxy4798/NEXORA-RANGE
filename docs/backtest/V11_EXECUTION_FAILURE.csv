@@ -1,0 +1,16 @@
+failure_rate_pct,failure_mode,executed_trades,wr,pf,net_pnl,max_dd_pct
+0,random,74,64.86,8.7,1.41,0.05
+0,liquidity_cluster,74,64.86,8.7,1.41,0.05
+0,volatility_cluster,74,64.86,8.7,1.41,0.05
+1,random,74,64.86,8.7,1.41,0.05
+1,liquidity_cluster,74,64.86,8.7,1.41,0.05
+1,volatility_cluster,74,64.86,8.7,1.41,0.05
+2,random,73,64.38,8.7,1.41,0.05
+2,liquidity_cluster,73,65.75,9.44,1.42,0.05
+2,volatility_cluster,73,65.75,9.4,1.42,0.05
+5,random,71,64.79,8.97,1.39,0.05
+5,liquidity_cluster,71,64.79,8.97,1.37,0.05
+5,volatility_cluster,71,66.2,9.58,1.38,0.03
+10,random,67,65.67,9.17,1.27,0.04
+10,liquidity_cluster,67,62.69,7.95,1.23,0.05
+10,volatility_cluster,67,67.16,9.58,1.39,0.05

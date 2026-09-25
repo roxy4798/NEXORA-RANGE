@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  nexora-paper:
+    build: .
+    container_name: nexora-range-paper
+    restart: unless-stopped
+    environment:
+      - BINANCE_ENV=paper
+      - GLOBAL_TRADING_ENABLED=false
+      - LIVE_ORDER_ENABLED=false
+      - REAL_ORDER_EXECUTION=false
+      - PAPER_MODE=true
+      - TZ=UTC
+    volumes:
+      - ./data/paper:/app/data/paper
+      - ./reports/paper:/app/reports/paper
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "from scripts.paper_state import PaperStateManager; sm = PaperStateManager(); res = sm.recover_state(); sm.close(); exit(0 if res is not None else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: ["python", "scripts/run_v13_paper.py", "--mode", "observation"]

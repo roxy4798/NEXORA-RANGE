@@ -1,0 +1,2 @@
+scenario,permutations,actual_holdout_max_dd_pct,mc_dd_p5,mc_dd_p25,mc_dd_p50_median,mc_dd_p75,mc_dd_p95,actual_max_consec_losses,mc_max_consec_p5,mc_max_consec_p50,mc_max_consec_p95,mc_max_consec_worst
+SL0.50_HOLD48_LAT0,5000,8.48,4.53,5.75,6.88,8.21,10.32,8,5,7,11,19

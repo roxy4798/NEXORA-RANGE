@@ -1,0 +1,5 @@
+Segment,Signal_Count,LONG_Signals,SHORT_Signals,MFE_24,MAE_24,Median_MFE_24,Median_MAE_24,MFE_gt_5pct,MAE_lt_neg5pct,Avg_24b_Return
+Segment 1,272,154,118,9.98,-6.49,4.21,-4.08,43.4,40.4,1.14
+Segment 2,457,185,272,9.52,-8.28,6.64,-5.44,58.6,53.2,0.62
+Segment 3,409,201,208,6.04,-6.46,2.99,-4.76,27.1,48.2,-1.22
+Segment 4,328,201,127,23.86,-12.86,7.27,-5.54,61.0,53.4,5.87

@@ -1,0 +1,5 @@
+period,direction,trades,win_rate,profit_factor,net_pnl_usd,pnl_share_of_period_pct,avg_trade_usd,median_trade_usd,avg_mfe,avg_mae,avg_holding_bars
+DEVELOPMENT,LONG,238,31.5,1.12,1129.1,-869.0,4.74,-22.41,11.47,-6.54,31.2
+DEVELOPMENT,SHORT,205,35.6,0.84,-1259.03,969.0,-6.14,-16.45,8.15,-6.63,31.8
+HOLDOUT,LONG,31,48.4,1.79,828.69,6645.5,26.73,-12.56,14.24,-5.72,34.4
+HOLDOUT,SHORT,16,6.2,0.04,-816.22,-6545.5,-51.01,-23.94,3.41,-8.09,32.1

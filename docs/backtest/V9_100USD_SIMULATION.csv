@@ -1,0 +1,6 @@
+scenario,starting_capital,ending_equity,net_pnl,return_pct,executed_trades,wr,pf,expectancy_pct,max_dd_pct,largest_loss_usd,largest_win_usd,losing_streak,avg_holding_bars,total_fees_usd,total_slippage_usd,total_funding_usd
+V8 Theoretical Baseline,100.0,878.54,778.54,778.54,2724,90.57,4.49,1.5486,4.5,-13.52,18.03,4,5.68,35.85,44.81,12.03
+V9 Realistic Baseline,100.0,687.97,587.97,587.97,2720,84.08,3.97,1.3751,4.91,-11.16,14.17,5,5.69,30.44,108.37,10.31
+V9 Conservative,100.0,350.27,250.27,250.27,2478,73.37,2.61,0.9788,7.69,-8.19,7.21,6,6.26,27.45,130.71,13.71
+V9 Stress,100.0,176.01,76.01,76.01,2186,59.56,1.64,0.501,8.6,-4.7,4.39,9,7.41,16.65,158.92,9.98
+V9 Extreme Stress,100.0,32.7,-67.3,-67.3,1634,29.01,0.32,-1.3273,67.31,-1.6,1.2,23,12.29,8.59,121.27,14.01

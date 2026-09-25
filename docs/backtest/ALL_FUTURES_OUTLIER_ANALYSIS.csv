@@ -1,0 +1,8 @@
+Scenario,Net_PnL_USD,Profit_Factor,Delta_From_Baseline_USD
+excl_top_1_wins,-1701.78,0.91,-1938.05
+excl_top_3_wins,-3414.22,0.83,-3650.49
+excl_top_5_wins,-4545.2,0.77,-4781.47
+excl_top_10_wins,-6491.89,0.67,-6728.16
+excl_top_1_losses,675.72,1.03,439.45
+excl_top_3_losses,1213.31,1.06,977.04
+excl_top_5_losses,1702.95,1.09,1466.68

@@ -1,0 +1,7 @@
+model_name,timeframe,policy,trades,wr,pf,net_pnl,return_pct,max_dd_pct
+V10 1m Conservative Adverse-First,1m Intrabar,A,2449,82.73,3.57,378.89,378.89,4.23
+V10 1m Neutral,1m Intrabar,B,2449,82.69,3.56,378.76,378.76,4.23
+V10 1m Favorable-First,1m Intrabar,C,2449,82.73,3.57,378.89,378.89,4.23
+V9 4H Policy A (Adverse-First),4H OHLC,A,2483,83.04,3.65,391.66,391.66,4.23
+V9 4H Policy B (Neutral),4H OHLC,B,2483,83.04,3.65,391.66,391.66,4.23
+V9 4H Policy C (Favorable),4H OHLC,C,2483,83.04,3.65,391.66,391.66,4.23

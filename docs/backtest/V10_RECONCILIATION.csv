@@ -1,0 +1,9 @@
+metric,v9_theoretical,v9_realistic,v10_1m_reconstructed,abs_diff_v10_vs_v9real,pct_diff_v10_vs_v9real
+Win Rate (%),90.55,83.04,82.73,-0.31,-0.37
+Profit Factor,4.48,3.65,3.57,-0.08,-2.19
+Net PnL ($100 Start),775.61,391.66,378.89,-12.77,-3.26
+Max Drawdown (%),4.5,4.23,4.23,0.0,0.0
+Total Fees ($),35.75,22.3,21.68,-0.62,-2.78
+Total Slippage ($),44.68,116.61,113.59,-3.02,-2.59
+Total Funding ($),12.02,8.15,8.1,-0.05,-0.61
+Average Holding Time (Bars),5.69,6.2,6.27,0.07,1.13

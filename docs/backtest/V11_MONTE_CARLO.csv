@@ -1,0 +1,6 @@
+percentile,ending_equity_usd,max_dd_pct,losing_streak
+P5,101.41,0.02,2
+P25,101.41,0.03,3
+Median (P50),101.41,0.03,4
+P75,101.41,0.04,4
+P95,101.41,0.05,6

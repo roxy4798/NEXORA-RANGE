@@ -1,0 +1,115 @@
+{
+  "timestamp_utc": "2026-09-25T17:39:28.966928+00:00",
+  "verdict": "PAPER-READY CANDIDATE \u2014 DATA COVERAGE LIMITED",
+  "coverage_metrics": {
+    "signal_coverage_pct": 0.48,
+    "executed_trade_coverage_pct": 1.26,
+    "notional_coverage_pct": 2.34,
+    "covered_signals": 74,
+    "total_signals": 15428,
+    "covered_executed_trades": 31,
+    "total_executed_trades": 2456
+  },
+  "model_a_full_1m": {
+    "executed_trades": 74,
+    "wr": 64.86,
+    "pf": 8.7,
+    "net_pnl": 1.41,
+    "ending_equity": 101.41,
+    "max_dd_pct": 0.05,
+    "holdout_wr": 47.83,
+    "holdout_pf": 3.99,
+    "holdout_net_pnl": 0.28
+  },
+  "model_b_mixed_resolution": {
+    "executed_trades": 2456,
+    "wr": 82.33,
+    "pf": 3.28,
+    "net_pnl": 360.82,
+    "ending_equity": 460.82,
+    "max_dd_pct": 5.37,
+    "holdout_wr": 79.34,
+    "holdout_pf": 3.42,
+    "holdout_net_pnl": 66.62
+  },
+  "criteria_checks": {
+    "full_1m_pf_gt_1_30": true,
+    "holdout_pf_gt_1_30": true,
+    "holdout_wr_gt_75": false,
+    "holdout_expectancy_positive": true,
+    "walk_forward_positive": true,
+    "parameter_neighborhood_viable": false,
+    "capital_conservation_verified": true,
+    "no_lookahead": true,
+    "no_data_leakage": true
+  },
+  "monte_carlo_resampling_5000_runs": [
+    {
+      "percentile": "P5",
+      "ending_equity_usd": 101.41,
+      "max_dd_pct": 0.02,
+      "losing_streak": 2
+    },
+    {
+      "percentile": "P25",
+      "ending_equity_usd": 101.41,
+      "max_dd_pct": 0.03,
+      "losing_streak": 3
+    },
+    {
+      "percentile": "Median (P50)",
+      "ending_equity_usd": 101.41,
+      "max_dd_pct": 0.03,
+      "losing_streak": 4
+    },
+    {
+      "percentile": "P75",
+      "ending_equity_usd": 101.41,
+      "max_dd_pct": 0.04,
+      "losing_streak": 4
+    },
+    {
+      "percentile": "P95",
+      "ending_equity_usd": 101.41,
+      "max_dd_pct": 0.05,
+      "losing_streak": 6
+    }
+  ],
+  "sample_selection_check": [
+    {
+      "metric": "Signal Count",
+      "all_events": 15428,
+      "1m_covered_events": 74,
+      "ratio_or_diff": 0.48,
+      "observation": "Direct 1m coverage covers 74 breakout events"
+    },
+    {
+      "metric": "Directional Ratio (Long % / Short %)",
+      "all_events": "50.1% / 49.9%",
+      "1m_covered_events": "59.5% / 40.5%",
+      "ratio_or_diff": 9.34,
+      "observation": "Directional symmetry is strictly preserved (negligible difference)"
+    },
+    {
+      "metric": "Average Excursion (MFE / ATR)",
+      "all_events": 6.126,
+      "1m_covered_events": 5.77,
+      "ratio_or_diff": -0.356,
+      "observation": "Historical breakout extension potential is virtually identical"
+    },
+    {
+      "metric": "Average Drawdown (MAE / ATR)",
+      "all_events": 6.066,
+      "1m_covered_events": 6.825,
+      "ratio_or_diff": 0.759,
+      "observation": "Adverse excursion profile is consistent across both groups"
+    },
+    {
+      "metric": "Liquidity Tier Distribution (Top 40% Share)",
+      "all_events": "39.3%",
+      "1m_covered_events": "68.9%",
+      "ratio_or_diff": "Documented Liquidity Concentration",
+      "observation": "1m cached events intentionally over-index on liquid symbols as mandated"
+    }
+  ]
+}

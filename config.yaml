@@ -1,0 +1,87 @@
+# ==============================================================================
+# NEXORA RANGE SCANNER — UNIFIED CONFIGURATION
+# ==============================================================================
+
+system:
+  app_name: "NEXORA RANGE SCANNER"
+  version: "1.0.0"
+  environment: "paper"            # paper | testnet | live
+  global_trading_enabled: false   # Master safety killswitch
+  timezone: "UTC"
+  log_level: "INFO"
+
+market_data:
+  default_timeframe: "15m"
+  supported_timeframes: ["1m", "3m", "5m", "15m", "30m", "1h", "2h", "4h", "6h", "12h", "1d"]
+  preload_candle_count: 1000      # Candles preloaded for calibration and ATR
+  symbols_refresh_interval_sec: 3600  # Dynamic universe refresh rate
+  max_symbols_to_scan: 0          # 0 = scan entire eligible Binance USDⓈ-M universe
+  min_24h_volume_usdt: 0.0        # 0.0 = optional volume filter disabled by default
+
+strategy:
+  # Exact Auto Range Detector [QuantAlgo] Parameters
+  scan_scaling: "Base + 2x + 3x"  # "Base only" | "Base + 2x" | "Base + 2x + 3x"
+  base_scan_length: 20
+  boundary_basis: "Percentile band"  # "Percentile band" | "Absolute" | "Body"
+  boundary_percentile: 90.0
+  signal_timing: "Bar close"      # Must strictly evaluate on candle close
+  atr_length: 200
+  compression_percentile: 40.0
+  calibration_lookback: 500
+  min_rotation_rate: 0.18
+  touch_definition: "Wick reaches"  # "Wick reaches" | "Close reaches"
+  min_boundary_touches: 2
+  touch_tolerance_atr: 0.10
+  max_drift: 0.45
+  min_containment: 0.70
+  range_anchoring: "Extend to containment"  # "Scan window only" | "Extend to containment"
+  anchor_lookback: 300
+  minimum_range_bars: 10
+  absorb_overshoot: true
+  overshoot_tolerance_atr: 0.25
+  break_confirmation: "Close beyond"  # "Close beyond" | "Wick beyond"
+  breakout_buffer_atr: 0.15
+  merge_deviations: true
+  deviation_window: 10
+  cooldown_bars: 3
+  max_range_age: 0                # 0 = unlimited age until broken
+
+trading:
+  # Trading Interpretation Mode
+  mode: "long_short"              # "signal_only" | "long_only" | "short_only" | "long_short"
+  entry_order_type: "MARKET"      # "MARKET" | "LIMIT"
+  enable_deviation_trading: false # Optional deviation strategy (disabled by default)
+
+risk:
+  risk_per_trade_percent: 1.0     # 1.0% of total equity at risk per trade
+  max_open_trades: 5              # Max concurrent open positions across all symbols
+  max_daily_loss_percent: 3.0     # Circuit breaker threshold (3% of daily starting equity)
+  max_daily_trades: 20            # Max trade entries allowed in a rolling 24h window
+  max_symbol_exposure_percent: 20.0 # Max capital committed to a single symbol
+  max_total_exposure_percent: 100.0 # Max aggregate margin across portfolio
+  default_leverage: 5             # Default margin leverage
+  cooldown_after_consecutive_losses: 3 # Losses triggering cooling pause
+  consecutive_loss_cooldown_hours: 1.0
+
+stops_and_targets:
+  stop_loss_model: "opposite_boundary" # "opposite_boundary" | "midpoint" | "atr_stop"
+  stop_buffer_atr: 0.10
+  take_profit_model: "fixed_r"    # "fixed_r" | "range_height" | "atr_multiples"
+  tp1_r_multiple: 1.0
+  tp2_r_multiple: 2.0
+  tp3_r_multiple: 3.0
+  partial_close_tp1_percent: 33.33
+  partial_close_tp2_percent: 33.33
+  enable_break_even: true         # Move stop loss to entry price when TP1 is hit
+
+paper_trading:
+  initial_balance_usdt: 1000.0
+  maker_fee_percent: 0.02
+  taker_fee_percent: 0.05
+  slippage_percent: 0.03          # Realistic slippage simulation on market fills
+
+endpoints:
+  binance_fapi_live: "https://fapi.binance.com"
+  binance_fapi_live_ws: "wss://fstream.binance.com/ws"
+  binance_fapi_testnet: "https://testnet.binancefuture.com"
+  binance_fapi_testnet_ws: "wss://stream.binancefuture.com/ws"

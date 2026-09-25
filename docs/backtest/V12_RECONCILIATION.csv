@@ -1,0 +1,12 @@
+metric,V10,V11,V12_Corrected
+Win Rate (%),82.73%,82.33%,82.33%
+Profit Factor,3.57,3.28,3.28
+Net PnL ($),+$378.89,+$360.82,+$360.82
+Max Drawdown (%),4.23%,5.37%,5.37%
+Holdout Win Rate (%),80.67%,79.34%,79.23%
+Holdout Profit Factor,4.06,3.42,3.62
+Total Fees ($),$21.68,$21.70,$21.70
+Total Slippage ($),$113.59,$113.86,$113.86
+Total Funding ($),$8.10,$8.06,$8.06
+Executed Trade Count,"2,449","2,456","2,456"
+1M Direct Executed Coverage,27.5%,1.26%,1.26% (31 trades in mixed; 74 in Model A)

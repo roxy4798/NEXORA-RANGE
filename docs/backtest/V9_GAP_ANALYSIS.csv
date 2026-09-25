@@ -1,0 +1,8 @@
+metric,value
+Total Evaluated Trades,15428
+Trades with Adverse Gap Fill,4
+Gap Frequency (%),0.03
+Average Adverse Gap (%),1.819
+P95 Adverse Gap (%),3.576
+Maximum Adverse Gap (%),3.604
+Adverse Fill Enforcement,Strict Open Fill (Non-anticipating)

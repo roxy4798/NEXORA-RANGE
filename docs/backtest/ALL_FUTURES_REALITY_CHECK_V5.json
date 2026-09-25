@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "research_phase": "NEXORA V5 Parameter Stability & Reality Check",
+    "universe_symbols": 520,
+    "total_signals": 15434,
+    "scenarios_count": 72,
+    "split": {
+      "development_pct": 70.0,
+      "holdout_pct": 30.0
+    }
+  },
+  "surface_morphology": {
+    "broad_plateau_cells": 69,
+    "narrow_spike_cells": 3,
+    "broad_pct": 95.8
+  },
+  "symbol_concentration": {
+    "development": {
+      "period": "DEVELOPMENT",
+      "active_symbols": 68,
+      "profitable_symbols": 16,
+      "losing_symbols": 52,
+      "profitable_pct": 23.5,
+      "hhi_index": 2608.4,
+      "gini_coefficient": 0.731,
+      "top_1_symbol_share_pct": 37.8,
+      "top_5_symbol_share_pct": 89.8,
+      "top_10_symbol_share_pct": 97.0
+    },
+    "holdout": {
+      "period": "HOLDOUT",
+      "active_symbols": 38,
+      "profitable_symbols": 12,
+      "losing_symbols": 26,
+      "profitable_pct": 31.6,
+      "hhi_index": 1451.0,
+      "gini_coefficient": 0.422,
+      "top_1_symbol_share_pct": 28.7,
+      "top_5_symbol_share_pct": 70.9,
+      "top_10_symbol_share_pct": 97.4
+    }
+  },
+  "holdout_consistency_counts": {
+    "DEV > 1 / HOLDOUT > 1": 11,
+    "DEV > 1 / HOLDOUT < 1": 5,
+    "DEV < 1 / HOLDOUT > 1": 14,
+    "DEV < 1 / HOLDOUT < 1": 42
+  },
+  "monte_carlo_permutation_5000": {
+    "dd_p5": 4.53,
+    "dd_p25": 5.75,
+    "dd_p50_median": 6.88,
+    "dd_p75": 8.21,
+    "dd_p95": 10.32,
+    "max_consec_p5": 5,
+    "max_consec_p50": 7,
+    "max_consec_p95": 11,
+    "max_consec_worst": 19
+  },
+  "bootstrap_holdout_5000": {
+    "profit_factor": {
+      "p5": 0.4722,
+      "p25": 0.7362,
+      "p50": 0.9909,
+      "p75": 1.307,
+      "p95": 1.919
+    },
+    "avg_trade_usd": {
+      "p5": -25.38,
+      "p25": -11.36,
+      "p50": -0.33,
+      "p75": 11.26,
+      "p95": 29.77
+    },
+    "win_rate": {
+      "p5": 23.4,
+      "p25": 29.79,
+      "p50": 34.04,
+      "p75": 38.3,
+      "p95": 44.68
+    },
+    "total_pnl_usd": {
+      "p5": -1192.93,
+      "p25": -533.73,
+      "p50": -15.73,
+      "p75": 529.37,
+      "p95": 1399.24
+    }
+  },
+  "audit": {
+    "status": "PASS",
+    "details": []
+  }
+}

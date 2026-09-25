@@ -1,0 +1,5 @@
+chronological_quarter,start_date,end_date,event_count,mfe_48b_mean,mae_48b_mean,close_ret_48b_mean,hit_1r_before_neg1r_pct,hit_2r_before_neg2r_pct,hit_3r_before_neg3r_pct,hit_5r_before_neg5r_pct
+Q1,2022-03-17,2026-05-26,3857,12.94,-12.45,-0.83,49.0,49.7,43.3,26.1
+Q2,2026-05-26,2026-07-01,3857,15.5,-18.53,0.53,49.6,47.9,42.4,27.1
+Q3,2026-07-01,2026-08-12,3857,11.99,-10.55,-0.34,48.2,38.9,27.4,13.2
+Q4,2026-08-12,2026-09-25,3857,16.0,-15.3,-1.43,53.0,46.8,40.4,27.5

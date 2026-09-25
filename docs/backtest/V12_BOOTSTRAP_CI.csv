@@ -1,0 +1,4 @@
+metric,point_estimate,ci_2_5_pct,ci_50_pct (Median),ci_97_5_pct,sample_size
+Win Rate (%),64.38,53.42,64.38,75.34,73
+Profit Factor,8.49,4.73,8.55,16.12,73
+Mean Net Return (%),0.372,0.234,0.368,0.535,73

@@ -1,0 +1,5 @@
+tier,fee_rate_per_side_pct,round_trip_fee_pct,trades,wr,pf,net_pnl,total_fees_usd,max_dd_pct
+Optimistic,0.02,0.04,2449,83.95,3.69,403.49,11.19,4.18
+Baseline,0.04,0.08,2449,82.73,3.57,378.89,21.68,4.23
+Conservative,0.06,0.12,2449,81.14,3.45,355.49,31.52,4.27
+Very Conservative,0.1,0.2,2449,78.15,3.21,312.03,49.34,4.36

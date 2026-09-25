@@ -1,0 +1,4 @@
+Allocation,Trades,Win_Rate,Profit_Factor,Net_PnL,Max_Drawdown_Pct,Max_Drawdown_USD
+Alloc_5pct,490,34.9,1.01,118.06,20.17,2384.86
+Alloc_10pct,490,34.9,1.01,236.27,34.94,4769.65
+Alloc_20pct,490,34.9,1.01,472.65,55.13,9539.3

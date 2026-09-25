@@ -1,0 +1,2 @@
+trade_id,signal_id,symbol,direction,signal_timestamp,backtest_entry,paper_entry,entry_diff_pct,entry_diff_bps,backtest_exit,paper_exit,exit_diff_pct,exit_diff_bps,backtest_fees,paper_fees,fees_diff,backtest_slippage,paper_slippage,slippage_diff,backtest_net_pnl,paper_net_pnl,pnl_diff,reconciliation_status
+TEMPLATE,NEXORA-BTCUSDT-0-LONG,BTCUSDT,LONG,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,PENDING_FORWARD_SIGNALS

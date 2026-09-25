@@ -1,0 +1,4 @@
+candidate,avg_simultaneous_positions,max_simultaneous_positions,max_long_simultaneous,max_short_simultaneous,time_utilization_gt_50pct,time_utilization_gt_75pct,time_utilization_gt_90pct
+Candidate_A,9.5,10,9,9,5.8,0.0,0.0
+Candidate_B,9.6,10,9,10,12.4,0.0,0.0
+Candidate_C,9.7,10,9,9,15.8,0.0,0.0

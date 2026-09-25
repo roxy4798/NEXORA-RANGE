@@ -1,0 +1,7 @@
+candidate,partition,trades_count,win_rate_pct,profit_factor,ending_equity_usd,net_return_pct,max_drawdown_pct
+Candidate_A,DEVELOPMENT_70pct,1336,87.5,3.32,341.89,241.89,4.03
+Candidate_A,HOLDOUT_30pct,441,88.2,2.48,140.23,40.23,8.55
+Candidate_B,DEVELOPMENT_70pct,989,92.1,2.14,215.43,115.43,4.33
+Candidate_B,HOLDOUT_30pct,264,92.0,2.51,130.95,30.95,8.43
+Candidate_C,DEVELOPMENT_70pct,823,82.4,1.62,201.58,101.58,8.59
+Candidate_C,HOLDOUT_30pct,134,82.8,1.96,117.62,17.62,7.65

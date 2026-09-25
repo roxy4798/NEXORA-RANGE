@@ -1,0 +1,4 @@
+policy,description,trades,wr,pf,net_pnl,max_dd_pct
+A,Conservative adverse-first (PRIMARY),74,64.86,8.7,1.41,0.05
+B,Neutral (chronological midpoint),74,68.92,10.04,1.61,0.02
+C,Favorable-first,74,66.22,8.23,1.27,0.04

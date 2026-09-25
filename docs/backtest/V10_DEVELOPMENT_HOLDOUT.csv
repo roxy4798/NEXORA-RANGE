@@ -1,0 +1,3 @@
+segment,trades,wr,pf,net_pnl,return_pct,max_dd_pct
+Development (70%),1857,83.25,3.13,200.4,200.4,4.3
+Holdout (30%),714,80.67,4.06,76.44,76.44,4.28

@@ -1,0 +1,8 @@
+model_id,description,win_rate_pct,profit_factor,mean_return_pct,median_return_pct,total_pnl_pct,max_drawdown_pts,avg_holding_bars
+MultiStage_1,Stage1: +1ATR act/1ATR trail -> Stage2: +2ATR tighten to 0.75ATR -> Stage3: +3ATR tighten to 0.5ATR,80.3,1.11,0.34,1.65,5217.9,4403.38,29.1
+MultiStage_2,Stage1: +1.5ATR act/1ATR trail -> Stage2: +2.5ATR tighten to 0.75ATR,76.7,1.07,0.3,2.89,4701.4,5346.16,38.8
+MultiStage_3,Stage1: +0.75ATR act/0.75ATR trail -> Stage2: +1.5ATR tighten to 0.5ATR,84.1,1.31,0.76,1.55,11697.6,3338.06,22.7
+Dynamic_RangeWidth,"Trail distance scaled by Range Width / ATR: max(0.5 ATR, min(2.0 ATR, 0.5 * RangeWidth/ATR))",63.1,0.91,-0.32,1.11,-4924.5,6825.81,31.1
+Dynamic_BreakoutMag,"Trail distance scaled by Breakout Mag / ATR: max(0.5 ATR, min(2.0 ATR, 1.0 + 0.2 * BreakoutMag/ATR))",74.7,0.99,-0.03,1.44,-439.7,4616.21,29.5
+Dynamic_Widening,Widening trail: 0.5 ATR base + 0.1 * Excursion_ATR,83.5,1.24,0.77,2.57,11818.6,4120.07,28.3
+Dynamic_Tightening,"Tightening trail: max(0.5 ATR, 1.5 ATR - 0.1 * Excursion_ATR)",63.0,0.94,-0.21,1.02,-3239.2,5996.62,30.7

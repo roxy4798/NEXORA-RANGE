@@ -1,0 +1,4 @@
+Latency,Trades,Win_Rate,Profit_Factor,Net_PnL,Max_Drawdown_Pct,Max_Drawdown_USD
+Latency_0b,490,34.9,1.01,236.27,34.94,4769.65
+Latency_1b,492,35.4,0.86,-2594.66,39.27,4499.79
+Latency_2b,479,38.4,0.86,-2683.83,39.73,4495.37

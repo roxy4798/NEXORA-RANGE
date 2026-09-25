@@ -1,0 +1,3 @@
+frequency,trades,wr,pf,net_pnl,return_pct,max_dd_pct,avg_holding_bars,notes
+1-Minute Sequential Update (PRIMARY),2449,82.73,3.57,378.89,378.89,4.23,6.27,Updates stop level every 60 seconds from actual candle high/low
+4H-Only Theoretical Update,2483,83.04,3.65,391.66,391.66,4.23,6.2,Coarse 4H candle resolution with theoretical adverse sequencing

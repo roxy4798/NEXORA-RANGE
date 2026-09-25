@@ -1,0 +1,6 @@
+model_id,activation_atr,trail_dist_atr,profit_factor,win_rate_pct,gross_return_pct,mean_return_pct,median_return_pct,mfe_capture_pct,mae_pct_mean,avg_holding_bars
+Model_A,1.0,1.0,1.13,83.9,6093.4,0.39,1.81,-441.6,-9.95,29.2
+Model_B,2.0,1.0,1.11,71.8,8747.8,0.57,4.21,-471.8,-14.1,46.5
+Model_C,2.0,2.0,0.94,71.8,-4553.9,-0.3,2.16,-488.2,-14.18,50.4
+Model_D,3.0,1.0,1.13,63.8,12334.6,0.8,5.69,-487.5,-16.14,58.3
+Model_E,3.0,2.0,0.99,63.8,-713.4,-0.05,3.97,-498.0,-17.3,60.7

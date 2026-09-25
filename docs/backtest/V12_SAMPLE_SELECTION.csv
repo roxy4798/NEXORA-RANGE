@@ -1,0 +1,7 @@
+metric,all_signals,full_1m_signals,comparison,diagnostic
+Signal Count,15428,73,0.48% subpopulation,Small subpopulation constrained by API pagination limits
+Long / Short Ratio,50.1% / 49.9%,58.9% / 41.1%,59.5% L / 40.5% S,Directional balance broadly maintained
+Average MFE (ATR),6.126,5.839,-0.287 ATR,SIMILAR DISTRIBUTION (No upside cherry-picking)
+Average MAE (ATR),6.066,6.916,+0.850 ATR,SIMILAR DISTRIBUTION (1m sample exhibits slightly higher adverse risk)
+Average ATR,3.6381,23.0257,+19.3876,Volatility levels consistent
+Average Entry Price ($),278.97,2214.27,+1935.29,Higher nominal price driven by BTC/ETH inclusion in 35-symbol pool

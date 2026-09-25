@@ -1,0 +1,2421 @@
+{
+  "metadata": {
+    "timestamp": "2026-09-25T09:16:59.406522+00:00",
+    "universe_size": 50,
+    "cached_candles": 49676,
+    "total_signals": 1466,
+    "long_signals": 741,
+    "short_signals": 725,
+    "label": "NEXORA RESEARCH EXECUTION MODEL \u2014 PINE SIGNAL OUTCOME ANALYSIS"
+  },
+  "model_a_time_exits": {
+    "1": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 670,
+        "losses": 796,
+        "win_rate": 45.7,
+        "profit_factor": 1.0,
+        "average_return": -0.0,
+        "median_return": -0.09,
+        "mfe": 1.9,
+        "mae": -1.65,
+        "max_drawdown": 144.82
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 342,
+        "losses": 399,
+        "win_rate": 46.2,
+        "profit_factor": 1.15,
+        "average_return": 0.13,
+        "median_return": -0.09,
+        "mfe": 2.52,
+        "mae": -1.93,
+        "max_drawdown": 109.48
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 328,
+        "losses": 397,
+        "win_rate": 45.2,
+        "profit_factor": 0.79,
+        "average_return": -0.14,
+        "median_return": -0.08,
+        "mfe": 1.28,
+        "mae": -1.36,
+        "max_drawdown": 149.58
+      }
+    },
+    "2": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 674,
+        "losses": 792,
+        "win_rate": 46.0,
+        "profit_factor": 1.03,
+        "average_return": 0.03,
+        "median_return": -0.18,
+        "mfe": 2.73,
+        "mae": -2.26,
+        "max_drawdown": 143.86
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 341,
+        "losses": 400,
+        "win_rate": 46.0,
+        "profit_factor": 1.22,
+        "average_return": 0.27,
+        "median_return": -0.16,
+        "mfe": 3.6,
+        "mae": -2.57,
+        "max_drawdown": 99.66
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 333,
+        "losses": 392,
+        "win_rate": 45.9,
+        "profit_factor": 0.79,
+        "average_return": -0.22,
+        "median_return": -0.24,
+        "mfe": 1.83,
+        "mae": -1.95,
+        "max_drawdown": 208.77
+      }
+    },
+    "3": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 689,
+        "losses": 777,
+        "win_rate": 47.0,
+        "profit_factor": 1.09,
+        "average_return": 0.12,
+        "median_return": -0.15,
+        "mfe": 3.28,
+        "mae": -2.69,
+        "max_drawdown": 129.11
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 354,
+        "losses": 387,
+        "win_rate": 47.8,
+        "profit_factor": 1.25,
+        "average_return": 0.35,
+        "median_return": -0.13,
+        "mfe": 4.34,
+        "mae": -2.98,
+        "max_drawdown": 118.41
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 335,
+        "losses": 390,
+        "win_rate": 46.2,
+        "profit_factor": 0.89,
+        "average_return": -0.12,
+        "median_return": -0.16,
+        "mfe": 2.2,
+        "mae": -2.39,
+        "max_drawdown": 205.71
+      }
+    },
+    "4": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 681,
+        "losses": 785,
+        "win_rate": 46.5,
+        "profit_factor": 1.09,
+        "average_return": 0.13,
+        "median_return": -0.19,
+        "mfe": 3.74,
+        "mae": -3.07,
+        "max_drawdown": 196.67
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 347,
+        "losses": 394,
+        "win_rate": 46.8,
+        "profit_factor": 1.27,
+        "average_return": 0.46,
+        "median_return": -0.21,
+        "mfe": 4.98,
+        "mae": -3.38,
+        "max_drawdown": 210.74
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 334,
+        "losses": 391,
+        "win_rate": 46.1,
+        "profit_factor": 0.85,
+        "average_return": -0.2,
+        "median_return": -0.17,
+        "mfe": 2.47,
+        "mae": -2.76,
+        "max_drawdown": 198.31
+      }
+    },
+    "6": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 699,
+        "losses": 767,
+        "win_rate": 47.7,
+        "profit_factor": 1.15,
+        "average_return": 0.28,
+        "median_return": -0.18,
+        "mfe": 4.69,
+        "mae": -3.86,
+        "max_drawdown": 196.8
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 367,
+        "losses": 374,
+        "win_rate": 49.5,
+        "profit_factor": 1.46,
+        "average_return": 0.94,
+        "median_return": -0.03,
+        "mfe": 6.35,
+        "mae": -4.09,
+        "max_drawdown": 187.14
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 332,
+        "losses": 393,
+        "win_rate": 45.8,
+        "profit_factor": 0.77,
+        "average_return": -0.39,
+        "median_return": -0.22,
+        "mfe": 3.0,
+        "mae": -3.62,
+        "max_drawdown": 284.83
+      }
+    },
+    "8": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 703,
+        "losses": 763,
+        "win_rate": 48.0,
+        "profit_factor": 1.21,
+        "average_return": 0.43,
+        "median_return": -0.16,
+        "mfe": 5.46,
+        "mae": -4.45,
+        "max_drawdown": 284.13
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 355,
+        "losses": 386,
+        "win_rate": 47.9,
+        "profit_factor": 1.42,
+        "average_return": 0.95,
+        "median_return": -0.23,
+        "mfe": 7.33,
+        "mae": -4.67,
+        "max_drawdown": 271.2
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 348,
+        "losses": 377,
+        "win_rate": 48.0,
+        "profit_factor": 0.94,
+        "average_return": -0.1,
+        "median_return": -0.12,
+        "mfe": 3.54,
+        "mae": -4.22,
+        "max_drawdown": 292.79
+      }
+    },
+    "12": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 707,
+        "losses": 759,
+        "win_rate": 48.2,
+        "profit_factor": 1.25,
+        "average_return": 0.66,
+        "median_return": -0.22,
+        "mfe": 6.96,
+        "mae": -5.49,
+        "max_drawdown": 401.31
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 358,
+        "losses": 383,
+        "win_rate": 48.3,
+        "profit_factor": 1.71,
+        "average_return": 1.87,
+        "median_return": -0.25,
+        "mfe": 9.52,
+        "mae": -5.53,
+        "max_drawdown": 366.46
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 349,
+        "losses": 376,
+        "win_rate": 48.1,
+        "profit_factor": 0.78,
+        "average_return": -0.57,
+        "median_return": -0.21,
+        "mfe": 4.35,
+        "mae": -5.45,
+        "max_drawdown": 813.68
+      }
+    },
+    "18": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 688,
+        "losses": 778,
+        "win_rate": 46.9,
+        "profit_factor": 1.22,
+        "average_return": 0.72,
+        "median_return": -0.39,
+        "mfe": 8.9,
+        "mae": -7.05,
+        "max_drawdown": 730.87
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 353,
+        "losses": 388,
+        "win_rate": 47.6,
+        "profit_factor": 1.76,
+        "average_return": 2.47,
+        "median_return": -0.37,
+        "mfe": 12.47,
+        "mae": -6.65,
+        "max_drawdown": 662.74
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 335,
+        "losses": 390,
+        "win_rate": 46.2,
+        "profit_factor": 0.69,
+        "average_return": -1.06,
+        "median_return": -0.45,
+        "mfe": 5.26,
+        "mae": -7.46,
+        "max_drawdown": 1326.6
+      }
+    },
+    "24": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 684,
+        "losses": 782,
+        "win_rate": 46.7,
+        "profit_factor": 1.36,
+        "average_return": 1.38,
+        "median_return": -0.45,
+        "mfe": 11.84,
+        "mae": -8.47,
+        "max_drawdown": 921.42
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 344,
+        "losses": 397,
+        "win_rate": 46.4,
+        "profit_factor": 2.11,
+        "average_return": 4.0,
+        "median_return": -0.55,
+        "mfe": 17.56,
+        "mae": -7.44,
+        "max_drawdown": 796.99
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 340,
+        "losses": 385,
+        "win_rate": 46.9,
+        "profit_factor": 0.68,
+        "average_return": -1.3,
+        "median_return": -0.37,
+        "mfe": 6.0,
+        "mae": -9.52,
+        "max_drawdown": 1690.91
+      }
+    },
+    "36": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 713,
+        "losses": 753,
+        "win_rate": 48.6,
+        "profit_factor": 1.13,
+        "average_return": 0.62,
+        "median_return": -0.27,
+        "mfe": 14.23,
+        "mae": -10.44,
+        "max_drawdown": 906.42
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 343,
+        "losses": 398,
+        "win_rate": 46.3,
+        "profit_factor": 1.78,
+        "average_return": 3.22,
+        "median_return": -0.85,
+        "mfe": 21.02,
+        "mae": -8.48,
+        "max_drawdown": 974.86
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 370,
+        "losses": 355,
+        "win_rate": 51.0,
+        "profit_factor": 0.64,
+        "average_return": -2.04,
+        "median_return": 0.16,
+        "mfe": 7.29,
+        "mae": -12.44,
+        "max_drawdown": 2325.1
+      }
+    },
+    "48": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 685,
+        "losses": 781,
+        "win_rate": 46.7,
+        "profit_factor": 0.94,
+        "average_return": -0.36,
+        "median_return": -0.8,
+        "mfe": 15.38,
+        "mae": -13.23,
+        "max_drawdown": 1777.99
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 335,
+        "losses": 406,
+        "win_rate": 45.2,
+        "profit_factor": 1.63,
+        "average_return": 3.06,
+        "median_return": -1.23,
+        "mfe": 22.43,
+        "mae": -9.51,
+        "max_drawdown": 1275.05
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 350,
+        "losses": 375,
+        "win_rate": 48.3,
+        "profit_factor": 0.5,
+        "average_return": -3.85,
+        "median_return": -0.34,
+        "mfe": 8.17,
+        "mae": -17.02,
+        "max_drawdown": 3585.42
+      }
+    }
+  },
+  "model_b_deviation_exits": {
+    "B_Pure": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 462,
+        "losses": 1004,
+        "win_rate": 31.5,
+        "profit_factor": 0.93,
+        "average_return": -0.32,
+        "median_return": -1.58,
+        "mfe": 11.89,
+        "mae": -9.18,
+        "max_drawdown": 1455.87
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 230,
+        "losses": 511,
+        "win_rate": 31.0,
+        "profit_factor": 1.46,
+        "average_return": 1.83,
+        "median_return": -1.87,
+        "mfe": 17.59,
+        "mae": -7.39,
+        "max_drawdown": 1184.63
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 232,
+        "losses": 493,
+        "win_rate": 32.0,
+        "profit_factor": 0.51,
+        "average_return": -2.52,
+        "median_return": -1.33,
+        "mfe": 6.06,
+        "mae": -11.02,
+        "max_drawdown": 2197.2
+      }
+    },
+    "B_Dev_OR_6b": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 609,
+        "losses": 857,
+        "win_rate": 41.5,
+        "profit_factor": 1.11,
+        "average_return": 0.2,
+        "median_return": -0.67,
+        "mfe": 4.45,
+        "mae": -3.42,
+        "max_drawdown": 247.7
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 324,
+        "losses": 417,
+        "win_rate": 43.7,
+        "profit_factor": 1.38,
+        "average_return": 0.76,
+        "median_return": -0.69,
+        "mfe": 6.05,
+        "mae": -3.73,
+        "max_drawdown": 224.7
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 285,
+        "losses": 440,
+        "win_rate": 39.3,
+        "profit_factor": 0.76,
+        "average_return": -0.37,
+        "median_return": -0.63,
+        "mfe": 2.82,
+        "mae": -3.1,
+        "max_drawdown": 270.76
+      }
+    },
+    "B_Dev_OR_12b": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 497,
+        "losses": 969,
+        "win_rate": 33.9,
+        "profit_factor": 1.14,
+        "average_return": 0.33,
+        "median_return": -1.15,
+        "mfe": 6.13,
+        "mae": -4.44,
+        "max_drawdown": 501.97
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 258,
+        "losses": 483,
+        "win_rate": 34.8,
+        "profit_factor": 1.49,
+        "average_return": 1.24,
+        "median_return": -1.36,
+        "mfe": 8.52,
+        "mae": -4.72,
+        "max_drawdown": 470.31
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 239,
+        "losses": 486,
+        "win_rate": 33.0,
+        "profit_factor": 0.71,
+        "average_return": -0.6,
+        "median_return": -1.07,
+        "mfe": 3.69,
+        "mae": -4.15,
+        "max_drawdown": 520.73
+      }
+    },
+    "B_Dev_OR_24b": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 455,
+        "losses": 1011,
+        "win_rate": 31.0,
+        "profit_factor": 1.34,
+        "average_return": 1.01,
+        "median_return": -1.42,
+        "mfe": 9.84,
+        "mae": -5.9,
+        "max_drawdown": 818.0
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 234,
+        "losses": 507,
+        "win_rate": 31.6,
+        "profit_factor": 1.98,
+        "average_return": 2.99,
+        "median_return": -1.57,
+        "mfe": 14.97,
+        "mae": -5.94,
+        "max_drawdown": 630.83
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 221,
+        "losses": 504,
+        "win_rate": 30.5,
+        "profit_factor": 0.65,
+        "average_return": -1.01,
+        "median_return": -1.27,
+        "mfe": 4.6,
+        "mae": -5.84,
+        "max_drawdown": 935.86
+      }
+    },
+    "B_Dev_OR_48b": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 462,
+        "losses": 1004,
+        "win_rate": 31.5,
+        "profit_factor": 0.93,
+        "average_return": -0.32,
+        "median_return": -1.58,
+        "mfe": 11.89,
+        "mae": -9.18,
+        "max_drawdown": 1455.87
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 230,
+        "losses": 511,
+        "win_rate": 31.0,
+        "profit_factor": 1.46,
+        "average_return": 1.83,
+        "median_return": -1.87,
+        "mfe": 17.59,
+        "mae": -7.39,
+        "max_drawdown": 1184.63
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 232,
+        "losses": 493,
+        "win_rate": 32.0,
+        "profit_factor": 0.51,
+        "average_return": -2.52,
+        "median_return": -1.33,
+        "mfe": 6.06,
+        "mae": -11.02,
+        "max_drawdown": 2197.2
+      }
+    }
+  },
+  "model_c_range_invalidation": {
+    "C1": {
+      "6": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 697,
+          "losses": 769,
+          "win_rate": 47.5,
+          "profit_factor": 1.13,
+          "average_return": 0.26,
+          "median_return": -0.18,
+          "mfe": 4.69,
+          "mae": -3.78,
+          "max_drawdown": 204.85
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 366,
+          "losses": 375,
+          "win_rate": 49.4,
+          "profit_factor": 1.41,
+          "average_return": 0.87,
+          "median_return": -0.04,
+          "mfe": 6.35,
+          "mae": -4.08,
+          "max_drawdown": 193.92
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 331,
+          "losses": 394,
+          "win_rate": 45.7,
+          "profit_factor": 0.78,
+          "average_return": -0.38,
+          "median_return": -0.22,
+          "mfe": 3.0,
+          "mae": -3.47,
+          "max_drawdown": 301.76
+        }
+      },
+      "12": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 693,
+          "losses": 773,
+          "win_rate": 47.3,
+          "profit_factor": 1.2,
+          "average_return": 0.55,
+          "median_return": -0.36,
+          "mfe": 6.93,
+          "mae": -5.21,
+          "max_drawdown": 422.03
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 351,
+          "losses": 390,
+          "win_rate": 47.4,
+          "profit_factor": 1.58,
+          "average_return": 1.64,
+          "median_return": -0.4,
+          "mfe": 9.48,
+          "mae": -5.41,
+          "max_drawdown": 457.54
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 342,
+          "losses": 383,
+          "win_rate": 47.2,
+          "profit_factor": 0.78,
+          "average_return": -0.57,
+          "median_return": -0.32,
+          "mfe": 4.32,
+          "mae": -5.02,
+          "max_drawdown": 767.86
+        }
+      },
+      "24": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 644,
+          "losses": 822,
+          "win_rate": 43.9,
+          "profit_factor": 1.39,
+          "average_return": 1.44,
+          "median_return": -1.04,
+          "mfe": 11.66,
+          "mae": -6.86,
+          "max_drawdown": 721.16
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 320,
+          "losses": 421,
+          "win_rate": 43.2,
+          "profit_factor": 2.0,
+          "average_return": 3.69,
+          "median_return": -1.23,
+          "mfe": 17.32,
+          "mae": -6.8,
+          "max_drawdown": 699.93
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 324,
+          "losses": 401,
+          "win_rate": 44.7,
+          "profit_factor": 0.76,
+          "average_return": -0.87,
+          "median_return": -0.75,
+          "mfe": 5.86,
+          "mae": -6.92,
+          "max_drawdown": 1226.09
+        }
+      },
+      "48": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 600,
+          "losses": 866,
+          "win_rate": 40.9,
+          "profit_factor": 1.14,
+          "average_return": 0.69,
+          "median_return": -2.53,
+          "mfe": 14.79,
+          "mae": -8.25,
+          "max_drawdown": 1157.19
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 295,
+          "losses": 446,
+          "win_rate": 39.8,
+          "profit_factor": 1.58,
+          "average_return": 2.71,
+          "median_return": -2.86,
+          "mfe": 21.69,
+          "mae": -7.93,
+          "max_drawdown": 988.98
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 305,
+          "losses": 420,
+          "win_rate": 42.1,
+          "profit_factor": 0.73,
+          "average_return": -1.37,
+          "median_return": -2.25,
+          "mfe": 7.73,
+          "mae": -8.58,
+          "max_drawdown": 1970.6
+        }
+      }
+    },
+    "C2": {
+      "6": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 699,
+          "losses": 767,
+          "win_rate": 47.7,
+          "profit_factor": 1.17,
+          "average_return": 0.31,
+          "median_return": -0.18,
+          "mfe": 4.69,
+          "mae": -3.8,
+          "max_drawdown": 201.48
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 367,
+          "losses": 374,
+          "win_rate": 49.5,
+          "profit_factor": 1.45,
+          "average_return": 0.93,
+          "median_return": -0.03,
+          "mfe": 6.35,
+          "mae": -4.09,
+          "max_drawdown": 188.25
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 332,
+          "losses": 393,
+          "win_rate": 45.8,
+          "profit_factor": 0.81,
+          "average_return": -0.32,
+          "median_return": -0.22,
+          "mfe": 3.0,
+          "mae": -3.5,
+          "max_drawdown": 267.55
+        }
+      },
+      "12": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 705,
+          "losses": 761,
+          "win_rate": 48.1,
+          "profit_factor": 1.25,
+          "average_return": 0.66,
+          "median_return": -0.24,
+          "mfe": 6.95,
+          "mae": -5.26,
+          "max_drawdown": 396.7
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 358,
+          "losses": 383,
+          "win_rate": 48.3,
+          "profit_factor": 1.7,
+          "average_return": 1.86,
+          "median_return": -0.25,
+          "mfe": 9.51,
+          "mae": -5.44,
+          "max_drawdown": 374.9
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 347,
+          "losses": 378,
+          "win_rate": 47.9,
+          "profit_factor": 0.78,
+          "average_return": -0.57,
+          "median_return": -0.23,
+          "mfe": 4.34,
+          "mae": -5.08,
+          "max_drawdown": 782.39
+        }
+      },
+      "24": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 667,
+          "losses": 799,
+          "win_rate": 45.5,
+          "profit_factor": 1.39,
+          "average_return": 1.47,
+          "median_return": -0.68,
+          "mfe": 11.79,
+          "mae": -7.02,
+          "max_drawdown": 771.5
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 336,
+          "losses": 405,
+          "win_rate": 45.3,
+          "profit_factor": 2.09,
+          "average_return": 3.95,
+          "median_return": -0.92,
+          "mfe": 17.54,
+          "mae": -6.97,
+          "max_drawdown": 729.93
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 331,
+          "losses": 394,
+          "win_rate": 45.7,
+          "profit_factor": 0.72,
+          "average_return": -1.07,
+          "median_return": -0.48,
+          "mfe": 5.92,
+          "mae": -7.07,
+          "max_drawdown": 1394.45
+        }
+      },
+      "48": {
+        "ALL": {
+          "trades": 1466,
+          "wins": 646,
+          "losses": 820,
+          "win_rate": 44.1,
+          "profit_factor": 1.09,
+          "average_return": 0.47,
+          "median_return": -1.75,
+          "mfe": 15.11,
+          "mae": -8.73,
+          "max_drawdown": 1094.12
+        },
+        "LONG": {
+          "trades": 741,
+          "wins": 322,
+          "losses": 419,
+          "win_rate": 43.5,
+          "profit_factor": 1.67,
+          "average_return": 3.09,
+          "median_return": -1.84,
+          "mfe": 22.15,
+          "mae": -8.18,
+          "max_drawdown": 1004.3
+        },
+        "SHORT": {
+          "trades": 725,
+          "wins": 324,
+          "losses": 401,
+          "win_rate": 44.7,
+          "profit_factor": 0.63,
+          "average_return": -2.2,
+          "median_return": -1.59,
+          "mfe": 7.92,
+          "mae": -9.29,
+          "max_drawdown": 2574.0
+        }
+      }
+    }
+  },
+  "model_d_structural_combinations": {
+    "D1": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 413,
+        "losses": 1053,
+        "win_rate": 28.2,
+        "profit_factor": 0.96,
+        "average_return": -0.17,
+        "median_return": -1.97,
+        "mfe": 11.59,
+        "mae": -6.63,
+        "max_drawdown": 1439.37
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 207,
+        "losses": 534,
+        "win_rate": 27.9,
+        "profit_factor": 1.32,
+        "average_return": 1.33,
+        "median_return": -2.38,
+        "mfe": 17.21,
+        "mae": -6.61,
+        "max_drawdown": 1236.26
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 206,
+        "losses": 519,
+        "win_rate": 28.4,
+        "profit_factor": 0.59,
+        "average_return": -1.71,
+        "median_return": -1.62,
+        "mfe": 5.84,
+        "mae": -6.65,
+        "max_drawdown": 1606.3
+      }
+    },
+    "D2": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 497,
+        "losses": 969,
+        "win_rate": 33.9,
+        "profit_factor": 1.14,
+        "average_return": 0.33,
+        "median_return": -1.15,
+        "mfe": 6.13,
+        "mae": -4.44,
+        "max_drawdown": 501.97
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 258,
+        "losses": 483,
+        "win_rate": 34.8,
+        "profit_factor": 1.49,
+        "average_return": 1.24,
+        "median_return": -1.36,
+        "mfe": 8.52,
+        "mae": -4.72,
+        "max_drawdown": 470.31
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 239,
+        "losses": 486,
+        "win_rate": 33.0,
+        "profit_factor": 0.71,
+        "average_return": -0.6,
+        "median_return": -1.07,
+        "mfe": 3.69,
+        "mae": -4.15,
+        "max_drawdown": 520.73
+      }
+    },
+    "D3": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 455,
+        "losses": 1011,
+        "win_rate": 31.0,
+        "profit_factor": 1.34,
+        "average_return": 1.01,
+        "median_return": -1.42,
+        "mfe": 9.84,
+        "mae": -5.9,
+        "max_drawdown": 818.0
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 234,
+        "losses": 507,
+        "win_rate": 31.6,
+        "profit_factor": 1.98,
+        "average_return": 2.99,
+        "median_return": -1.57,
+        "mfe": 14.97,
+        "mae": -5.94,
+        "max_drawdown": 630.83
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 221,
+        "losses": 504,
+        "win_rate": 30.5,
+        "profit_factor": 0.65,
+        "average_return": -1.01,
+        "median_return": -1.27,
+        "mfe": 4.6,
+        "mae": -5.84,
+        "max_drawdown": 935.86
+      }
+    },
+    "D4": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 693,
+        "losses": 773,
+        "win_rate": 47.3,
+        "profit_factor": 1.2,
+        "average_return": 0.55,
+        "median_return": -0.36,
+        "mfe": 6.93,
+        "mae": -5.21,
+        "max_drawdown": 422.03
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 351,
+        "losses": 390,
+        "win_rate": 47.4,
+        "profit_factor": 1.58,
+        "average_return": 1.64,
+        "median_return": -0.4,
+        "mfe": 9.48,
+        "mae": -5.41,
+        "max_drawdown": 457.54
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 342,
+        "losses": 383,
+        "win_rate": 47.2,
+        "profit_factor": 0.78,
+        "average_return": -0.57,
+        "median_return": -0.32,
+        "mfe": 4.32,
+        "mae": -5.02,
+        "max_drawdown": 767.86
+      }
+    },
+    "D5": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 644,
+        "losses": 822,
+        "win_rate": 43.9,
+        "profit_factor": 1.39,
+        "average_return": 1.44,
+        "median_return": -1.04,
+        "mfe": 11.66,
+        "mae": -6.86,
+        "max_drawdown": 721.16
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 320,
+        "losses": 421,
+        "win_rate": 43.2,
+        "profit_factor": 2.0,
+        "average_return": 3.69,
+        "median_return": -1.23,
+        "mfe": 17.32,
+        "mae": -6.8,
+        "max_drawdown": 699.93
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 324,
+        "losses": 401,
+        "win_rate": 44.7,
+        "profit_factor": 0.76,
+        "average_return": -0.87,
+        "median_return": -0.75,
+        "mfe": 5.86,
+        "mae": -6.92,
+        "max_drawdown": 1226.09
+      }
+    },
+    "D6": {
+      "ALL": {
+        "trades": 1466,
+        "wins": 431,
+        "losses": 1035,
+        "win_rate": 29.4,
+        "profit_factor": 1.17,
+        "average_return": 0.56,
+        "median_return": -1.59,
+        "mfe": 9.77,
+        "mae": -5.58,
+        "max_drawdown": 1062.03
+      },
+      "LONG": {
+        "trades": 741,
+        "wins": 218,
+        "losses": 523,
+        "win_rate": 29.4,
+        "profit_factor": 1.71,
+        "average_return": 2.46,
+        "median_return": -1.82,
+        "mfe": 14.88,
+        "mae": -5.75,
+        "max_drawdown": 816.16
+      },
+      "SHORT": {
+        "trades": 725,
+        "wins": 213,
+        "losses": 512,
+        "win_rate": 29.4,
+        "profit_factor": 0.57,
+        "average_return": -1.38,
+        "median_return": -1.4,
+        "mfe": 4.55,
+        "mae": -5.41,
+        "max_drawdown": 1060.23
+      }
+    }
+  },
+  "model_e_mfe_retracement": {
+    "ALL": {
+      "1.0": {
+        "6": {
+          "signals_reaching": 1123,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 1.8,
+          "median_retained": 0.81,
+          "mean_retained": 1.42,
+          "median_giveback": 2.73,
+          "mean_giveback": 4.57
+        },
+        "12": {
+          "signals_reaching": 1221,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 2.4,
+          "median_retained": 0.78,
+          "mean_retained": 1.72,
+          "median_giveback": 4.16,
+          "mean_giveback": 6.54
+        },
+        "24": {
+          "signals_reaching": 1276,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 3.0,
+          "median_retained": 0.49,
+          "mean_retained": 2.92,
+          "median_giveback": 5.56,
+          "mean_giveback": 10.62
+        },
+        "48": {
+          "signals_reaching": 1332,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 4.3,
+          "median_retained": 0.38,
+          "mean_retained": 1.08,
+          "median_giveback": 8.52,
+          "mean_giveback": 15.8
+        }
+      },
+      "2.0": {
+        "6": {
+          "signals_reaching": 857,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.3,
+          "median_retained": 1.63,
+          "mean_retained": 2.41,
+          "median_giveback": 2.94,
+          "mean_giveback": 4.99
+        },
+        "12": {
+          "signals_reaching": 1017,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 3.4,
+          "median_retained": 1.74,
+          "mean_retained": 2.74,
+          "median_giveback": 4.27,
+          "mean_giveback": 6.88
+        },
+        "24": {
+          "signals_reaching": 1129,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 4.7,
+          "median_retained": 1.32,
+          "mean_retained": 4.1,
+          "median_giveback": 5.63,
+          "mean_giveback": 11.01
+        },
+        "48": {
+          "signals_reaching": 1228,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 7.1,
+          "median_retained": 1.24,
+          "mean_retained": 2.21,
+          "median_giveback": 8.51,
+          "mean_giveback": 15.97
+        }
+      },
+      "3.0": {
+        "6": {
+          "signals_reaching": 643,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.5,
+          "median_retained": 2.83,
+          "mean_retained": 3.52,
+          "median_giveback": 3.07,
+          "mean_giveback": 5.51
+        },
+        "12": {
+          "signals_reaching": 823,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 4.0,
+          "median_retained": 2.83,
+          "mean_retained": 4.09,
+          "median_giveback": 4.49,
+          "mean_giveback": 7.22
+        },
+        "24": {
+          "signals_reaching": 961,
+          "median_first_hit_bar": 4.0,
+          "mean_first_hit_bar": 5.9,
+          "median_retained": 2.4,
+          "mean_retained": 5.67,
+          "median_giveback": 5.76,
+          "mean_giveback": 11.64
+        },
+        "48": {
+          "signals_reaching": 1097,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 9.3,
+          "median_retained": 2.45,
+          "mean_retained": 3.6,
+          "median_giveback": 8.58,
+          "mean_giveback": 16.45
+        }
+      },
+      "5.0": {
+        "6": {
+          "signals_reaching": 371,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.9,
+          "median_retained": 5.03,
+          "mean_retained": 6.08,
+          "median_giveback": 3.4,
+          "mean_giveback": 6.71
+        },
+        "12": {
+          "signals_reaching": 551,
+          "median_first_hit_bar": 4.0,
+          "mean_first_hit_bar": 5.0,
+          "median_retained": 5.08,
+          "mean_retained": 6.68,
+          "median_giveback": 4.83,
+          "mean_giveback": 8.25
+        },
+        "24": {
+          "signals_reaching": 697,
+          "median_first_hit_bar": 6.0,
+          "mean_first_hit_bar": 7.6,
+          "median_retained": 5.38,
+          "mean_retained": 8.92,
+          "median_giveback": 6.25,
+          "mean_giveback": 13.45
+        },
+        "48": {
+          "signals_reaching": 877,
+          "median_first_hit_bar": 8.0,
+          "mean_first_hit_bar": 13.2,
+          "median_retained": 4.59,
+          "mean_retained": 6.33,
+          "median_giveback": 9.15,
+          "mean_giveback": 17.75
+        }
+      },
+      "7.5": {
+        "6": {
+          "signals_reaching": 231,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 3.3,
+          "median_retained": 7.18,
+          "mean_retained": 8.58,
+          "median_giveback": 3.84,
+          "mean_giveback": 8.28
+        },
+        "12": {
+          "signals_reaching": 379,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 5.7,
+          "median_retained": 6.92,
+          "mean_retained": 9.26,
+          "median_giveback": 5.23,
+          "mean_giveback": 9.65
+        },
+        "24": {
+          "signals_reaching": 514,
+          "median_first_hit_bar": 8.0,
+          "mean_first_hit_bar": 8.9,
+          "median_retained": 8.57,
+          "mean_retained": 12.33,
+          "median_giveback": 6.42,
+          "mean_giveback": 15.79
+        },
+        "48": {
+          "signals_reaching": 686,
+          "median_first_hit_bar": 11.0,
+          "mean_first_hit_bar": 15.4,
+          "median_retained": 7.68,
+          "mean_retained": 9.46,
+          "median_giveback": 9.42,
+          "mean_giveback": 19.61
+        }
+      },
+      "10.0": {
+        "6": {
+          "signals_reaching": 148,
+          "median_first_hit_bar": 3.5,
+          "mean_first_hit_bar": 3.5,
+          "median_retained": 9.5,
+          "mean_retained": 11.26,
+          "median_giveback": 5.24,
+          "mean_giveback": 10.27
+        },
+        "12": {
+          "signals_reaching": 260,
+          "median_first_hit_bar": 6.0,
+          "mean_first_hit_bar": 6.0,
+          "median_retained": 10.17,
+          "mean_retained": 12.22,
+          "median_giveback": 5.86,
+          "mean_giveback": 11.41
+        },
+        "24": {
+          "signals_reaching": 403,
+          "median_first_hit_bar": 9.0,
+          "mean_first_hit_bar": 10.3,
+          "median_retained": 10.74,
+          "mean_retained": 15.54,
+          "median_giveback": 7.01,
+          "mean_giveback": 17.97
+        },
+        "48": {
+          "signals_reaching": 564,
+          "median_first_hit_bar": 14.0,
+          "mean_first_hit_bar": 17.5,
+          "median_retained": 9.89,
+          "mean_retained": 11.98,
+          "median_giveback": 9.83,
+          "mean_giveback": 21.55
+        }
+      }
+    },
+    "LONG": {
+      "1.0": {
+        "6": {
+          "signals_reaching": 597,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 1.6,
+          "median_retained": 0.95,
+          "mean_retained": 2.0,
+          "median_giveback": 3.43,
+          "mean_giveback": 5.78
+        },
+        "12": {
+          "signals_reaching": 637,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 2.1,
+          "median_retained": 0.92,
+          "mean_retained": 2.89,
+          "median_giveback": 5.11,
+          "mean_giveback": 8.11
+        },
+        "24": {
+          "signals_reaching": 660,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 2.6,
+          "median_retained": 0.35,
+          "mean_retained": 5.51,
+          "median_giveback": 7.03,
+          "mean_giveback": 14.15
+        },
+        "48": {
+          "signals_reaching": 679,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 3.5,
+          "median_retained": -0.15,
+          "mean_retained": 4.34,
+          "median_giveback": 10.79,
+          "mean_giveback": 20.1
+        }
+      },
+      "2.0": {
+        "6": {
+          "signals_reaching": 485,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 2.1,
+          "median_retained": 1.83,
+          "mean_retained": 2.97,
+          "median_giveback": 3.47,
+          "mean_giveback": 6.27
+        },
+        "12": {
+          "signals_reaching": 548,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.9,
+          "median_retained": 2.11,
+          "mean_retained": 3.93,
+          "median_giveback": 5.44,
+          "mean_giveback": 8.61
+        },
+        "24": {
+          "signals_reaching": 589,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 3.9,
+          "median_retained": 1.67,
+          "mean_retained": 6.75,
+          "median_giveback": 7.5,
+          "mean_giveback": 15.09
+        },
+        "48": {
+          "signals_reaching": 629,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 5.8,
+          "median_retained": 0.92,
+          "mean_retained": 5.31,
+          "median_giveback": 11.41,
+          "mean_giveback": 20.95
+        }
+      },
+      "3.0": {
+        "6": {
+          "signals_reaching": 389,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.3,
+          "median_retained": 2.94,
+          "mean_retained": 3.95,
+          "median_giveback": 3.81,
+          "mean_giveback": 6.96
+        },
+        "12": {
+          "signals_reaching": 474,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 3.5,
+          "median_retained": 2.84,
+          "mean_retained": 4.9,
+          "median_giveback": 5.75,
+          "mean_giveback": 9.21
+        },
+        "24": {
+          "signals_reaching": 530,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 4.9,
+          "median_retained": 3.0,
+          "mean_retained": 8.03,
+          "median_giveback": 7.57,
+          "mean_giveback": 15.97
+        },
+        "48": {
+          "signals_reaching": 581,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 7.5,
+          "median_retained": 2.25,
+          "mean_retained": 6.32,
+          "median_giveback": 11.95,
+          "mean_giveback": 21.91
+        }
+      },
+      "5.0": {
+        "6": {
+          "signals_reaching": 250,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.7,
+          "median_retained": 5.05,
+          "mean_retained": 6.53,
+          "median_giveback": 4.71,
+          "mean_giveback": 8.28
+        },
+        "12": {
+          "signals_reaching": 341,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 4.6,
+          "median_retained": 5.23,
+          "mean_retained": 7.65,
+          "median_giveback": 6.15,
+          "mean_giveback": 10.44
+        },
+        "24": {
+          "signals_reaching": 414,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 6.9,
+          "median_retained": 6.15,
+          "mean_retained": 11.32,
+          "median_giveback": 8.04,
+          "mean_giveback": 18.31
+        },
+        "48": {
+          "signals_reaching": 488,
+          "median_first_hit_bar": 6.0,
+          "mean_first_hit_bar": 11.0,
+          "median_retained": 4.48,
+          "mean_retained": 8.75,
+          "median_giveback": 12.68,
+          "mean_giveback": 24.11
+        }
+      },
+      "7.5": {
+        "6": {
+          "signals_reaching": 173,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 3.1,
+          "median_retained": 7.51,
+          "mean_retained": 9.04,
+          "median_giveback": 5.12,
+          "mean_giveback": 9.69
+        },
+        "12": {
+          "signals_reaching": 256,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 5.2,
+          "median_retained": 6.97,
+          "mean_retained": 10.12,
+          "median_giveback": 6.41,
+          "mean_giveback": 11.96
+        },
+        "24": {
+          "signals_reaching": 335,
+          "median_first_hit_bar": 6.0,
+          "mean_first_hit_bar": 8.3,
+          "median_retained": 9.1,
+          "mean_retained": 14.31,
+          "median_giveback": 9.09,
+          "mean_giveback": 20.85
+        },
+        "48": {
+          "signals_reaching": 405,
+          "median_first_hit_bar": 9.0,
+          "mean_first_hit_bar": 12.9,
+          "median_retained": 7.49,
+          "mean_retained": 11.32,
+          "median_giveback": 13.61,
+          "mean_giveback": 27.03
+        }
+      },
+      "10.0": {
+        "6": {
+          "signals_reaching": 123,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 3.4,
+          "median_retained": 9.24,
+          "mean_retained": 11.54,
+          "median_giveback": 6.0,
+          "mean_giveback": 11.32
+        },
+        "12": {
+          "signals_reaching": 190,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 5.4,
+          "median_retained": 10.35,
+          "mean_retained": 13.04,
+          "median_giveback": 7.08,
+          "mean_giveback": 13.75
+        },
+        "24": {
+          "signals_reaching": 277,
+          "median_first_hit_bar": 8.0,
+          "mean_first_hit_bar": 9.5,
+          "median_retained": 10.75,
+          "mean_retained": 17.54,
+          "median_giveback": 9.5,
+          "mean_giveback": 23.21
+        },
+        "48": {
+          "signals_reaching": 350,
+          "median_first_hit_bar": 11.0,
+          "mean_first_hit_bar": 14.7,
+          "median_retained": 8.79,
+          "mean_retained": 13.74,
+          "median_giveback": 15.16,
+          "mean_giveback": 29.32
+        }
+      }
+    },
+    "SHORT": {
+      "1.0": {
+        "6": {
+          "signals_reaching": 526,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 1.9,
+          "median_retained": 0.72,
+          "mean_retained": 0.77,
+          "median_giveback": 2.26,
+          "mean_giveback": 3.19
+        },
+        "12": {
+          "signals_reaching": 584,
+          "median_first_hit_bar": 1.0,
+          "mean_first_hit_bar": 2.7,
+          "median_retained": 0.76,
+          "mean_retained": 0.45,
+          "median_giveback": 3.34,
+          "mean_giveback": 4.84
+        },
+        "24": {
+          "signals_reaching": 616,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 3.4,
+          "median_retained": 0.57,
+          "mean_retained": 0.15,
+          "median_giveback": 4.36,
+          "mean_giveback": 6.83
+        },
+        "48": {
+          "signals_reaching": 653,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 5.1,
+          "median_retained": 0.77,
+          "mean_retained": -2.32,
+          "median_giveback": 6.51,
+          "mean_giveback": 11.33
+        }
+      },
+      "2.0": {
+        "6": {
+          "signals_reaching": 372,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.5,
+          "median_retained": 1.48,
+          "mean_retained": 1.68,
+          "median_giveback": 2.37,
+          "mean_giveback": 3.32
+        },
+        "12": {
+          "signals_reaching": 469,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 3.9,
+          "median_retained": 1.57,
+          "mean_retained": 1.36,
+          "median_giveback": 3.45,
+          "mean_giveback": 4.85
+        },
+        "24": {
+          "signals_reaching": 540,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 5.7,
+          "median_retained": 1.18,
+          "mean_retained": 1.2,
+          "median_giveback": 4.33,
+          "mean_giveback": 6.55
+        },
+        "48": {
+          "signals_reaching": 599,
+          "median_first_hit_bar": 4.0,
+          "mean_first_hit_bar": 8.4,
+          "median_retained": 1.38,
+          "mean_retained": -1.04,
+          "median_giveback": 6.35,
+          "mean_giveback": 10.73
+        }
+      },
+      "3.0": {
+        "6": {
+          "signals_reaching": 254,
+          "median_first_hit_bar": 2.0,
+          "mean_first_hit_bar": 2.8,
+          "median_retained": 2.69,
+          "mean_retained": 2.86,
+          "median_giveback": 2.44,
+          "mean_giveback": 3.29
+        },
+        "12": {
+          "signals_reaching": 349,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 4.6,
+          "median_retained": 2.83,
+          "mean_retained": 2.98,
+          "median_giveback": 3.45,
+          "mean_giveback": 4.51
+        },
+        "24": {
+          "signals_reaching": 431,
+          "median_first_hit_bar": 5.0,
+          "mean_first_hit_bar": 7.1,
+          "median_retained": 2.23,
+          "mean_retained": 2.76,
+          "median_giveback": 4.36,
+          "mean_giveback": 6.31
+        },
+        "48": {
+          "signals_reaching": 516,
+          "median_first_hit_bar": 7.0,
+          "mean_first_hit_bar": 11.4,
+          "median_retained": 2.49,
+          "mean_retained": 0.54,
+          "median_giveback": 5.98,
+          "mean_giveback": 10.3
+        }
+      },
+      "5.0": {
+        "6": {
+          "signals_reaching": 121,
+          "median_first_hit_bar": 3.0,
+          "mean_first_hit_bar": 3.2,
+          "median_retained": 4.94,
+          "mean_retained": 5.14,
+          "median_giveback": 2.36,
+          "mean_giveback": 3.48
+        },
+        "12": {
+          "signals_reaching": 210,
+          "median_first_hit_bar": 6.0,
+          "mean_first_hit_bar": 5.6,
+          "median_retained": 4.86,
+          "mean_retained": 5.11,
+          "median_giveback": 3.88,
+          "mean_giveback": 4.7
+        },
+        "24": {
+          "signals_reaching": 283,
+          "median_first_hit_bar": 8.0,
+          "mean_first_hit_bar": 8.7,
+          "median_retained": 4.44,
+          "mean_retained": 5.4,
+          "median_giveback": 4.62,
+          "mean_giveback": 6.34
+        },
+        "48": {
+          "signals_reaching": 389,
+          "median_first_hit_bar": 11.0,
+          "mean_first_hit_bar": 15.9,
+          "median_retained": 4.97,
+          "mean_retained": 3.29,
+          "median_giveback": 6.04,
+          "mean_giveback": 9.77
+        }
+      },
+      "7.5": {
+        "6": {
+          "signals_reaching": 58,
+          "median_first_hit_bar": 4.0,
+          "mean_first_hit_bar": 3.8,
+          "median_retained": 7.0,
+          "mean_retained": 7.19,
+          "median_giveback": 2.74,
+          "mean_giveback": 4.09
+        },
+        "12": {
+          "signals_reaching": 123,
+          "median_first_hit_bar": 7.0,
+          "mean_first_hit_bar": 6.5,
+          "median_retained": 6.79,
+          "mean_retained": 7.47,
+          "median_giveback": 3.86,
+          "mean_giveback": 4.82
+        },
+        "24": {
+          "signals_reaching": 179,
+          "median_first_hit_bar": 9.0,
+          "mean_first_hit_bar": 10.0,
+          "median_retained": 7.8,
+          "mean_retained": 8.62,
+          "median_giveback": 4.67,
+          "mean_giveback": 6.31
+        },
+        "48": {
+          "signals_reaching": 281,
+          "median_first_hit_bar": 15.0,
+          "mean_first_hit_bar": 19.0,
+          "median_retained": 7.83,
+          "mean_retained": 6.79,
+          "median_giveback": 5.82,
+          "mean_giveback": 8.92
+        }
+      },
+      "10.0": {
+        "6": {
+          "signals_reaching": 25,
+          "median_first_hit_bar": 4.0,
+          "mean_first_hit_bar": 3.8,
+          "median_retained": 10.37,
+          "mean_retained": 9.88,
+          "median_giveback": 3.03,
+          "mean_giveback": 5.1
+        },
+        "12": {
+          "signals_reaching": 70,
+          "median_first_hit_bar": 8.0,
+          "mean_first_hit_bar": 7.5,
+          "median_retained": 9.72,
+          "mean_retained": 10.0,
+          "median_giveback": 3.68,
+          "mean_giveback": 5.07
+        },
+        "24": {
+          "signals_reaching": 126,
+          "median_first_hit_bar": 11.5,
+          "mean_first_hit_bar": 12.0,
+          "median_retained": 10.5,
+          "mean_retained": 11.17,
+          "median_giveback": 4.72,
+          "mean_giveback": 6.45
+        },
+        "48": {
+          "signals_reaching": 214,
+          "median_first_hit_bar": 19.0,
+          "mean_first_hit_bar": 22.2,
+          "median_retained": 10.68,
+          "mean_retained": 9.11,
+          "median_giveback": 5.72,
+          "mean_giveback": 8.84
+        }
+      }
+    }
+  },
+  "model_f_path_classification": {
+    "ALL": {
+      "F1": {
+        "count": 133,
+        "percentage": 9.1,
+        "median_time_to_mfe": null,
+        "median_time_to_mae": 1.0
+      },
+      "F2": {
+        "count": 542,
+        "percentage": 37.0,
+        "median_time_to_mfe": 1.0,
+        "median_time_to_mae": 6.0
+      },
+      "F3": {
+        "count": 704,
+        "percentage": 48.0,
+        "median_time_to_mfe": 3.0,
+        "median_time_to_mae": 14.0
+      },
+      "F4": {
+        "count": 652,
+        "percentage": 44.5,
+        "median_time_to_mfe": 6.0,
+        "median_time_to_mae": 19.5
+      },
+      "F5": {
+        "count": 436,
+        "percentage": 29.7,
+        "median_time_to_mfe": 8.0,
+        "median_time_to_mae": null
+      }
+    },
+    "LONG": {
+      "F1": {
+        "count": 62,
+        "percentage": 8.4,
+        "median_time_to_mfe": null,
+        "median_time_to_mae": 1.0
+      },
+      "F2": {
+        "count": 247,
+        "percentage": 33.3,
+        "median_time_to_mfe": 1.0,
+        "median_time_to_mae": 6.0
+      },
+      "F3": {
+        "count": 380,
+        "percentage": 51.3,
+        "median_time_to_mfe": 2.0,
+        "median_time_to_mae": 11.0
+      },
+      "F4": {
+        "count": 364,
+        "percentage": 49.1,
+        "median_time_to_mfe": 5.0,
+        "median_time_to_mae": 15.5
+      },
+      "F5": {
+        "count": 230,
+        "percentage": 31.0,
+        "median_time_to_mfe": 6.0,
+        "median_time_to_mae": null
+      }
+    },
+    "SHORT": {
+      "F1": {
+        "count": 71,
+        "percentage": 9.8,
+        "median_time_to_mfe": null,
+        "median_time_to_mae": 1.0
+      },
+      "F2": {
+        "count": 295,
+        "percentage": 40.7,
+        "median_time_to_mfe": 1.0,
+        "median_time_to_mae": 6.0
+      },
+      "F3": {
+        "count": 324,
+        "percentage": 44.7,
+        "median_time_to_mfe": 4.0,
+        "median_time_to_mae": 16.0
+      },
+      "F4": {
+        "count": 288,
+        "percentage": 39.7,
+        "median_time_to_mfe": 8.0,
+        "median_time_to_mae": 24.0
+      },
+      "F5": {
+        "count": 206,
+        "percentage": 28.4,
+        "median_time_to_mfe": 9.0,
+        "median_time_to_mae": null
+      }
+    }
+  },
+  "symbol_dispersion": {
+    "24b_MFE": {
+      "p25": 6.3,
+      "p50": 9.45,
+      "p75": 11.22,
+      "iqr": 4.92,
+      "min": 1.72,
+      "max": 69.6
+    },
+    "24b_MAE": {
+      "p25": -9.94,
+      "p50": -6.8,
+      "p75": -4.77,
+      "iqr": 5.18,
+      "min": -59.04,
+      "max": -1.53
+    },
+    "24b_Close_Return": {
+      "p25": -0.97,
+      "p50": 0.89,
+      "p75": 2.97,
+      "iqr": 3.94,
+      "min": -16.4,
+      "max": 20.67
+    }
+  },
+  "chronological_stability": {
+    "Segment 1": {
+      "D1": {
+        "trades": 272,
+        "wins": 60,
+        "losses": 212,
+        "win_rate": 22.1,
+        "profit_factor": 0.52,
+        "average_return": -2.01,
+        "median_return": -2.41,
+        "mfe": 8.5,
+        "mae": -6.09,
+        "max_drawdown": 577.93
+      },
+      "D2": {
+        "trades": 272,
+        "wins": 89,
+        "losses": 183,
+        "win_rate": 32.7,
+        "profit_factor": 1.07,
+        "average_return": 0.16,
+        "median_return": -1.28,
+        "mfe": 5.78,
+        "mae": -4.22,
+        "max_drawdown": 211.2
+      },
+      "D3": {
+        "trades": 272,
+        "wins": 76,
+        "losses": 196,
+        "win_rate": 27.9,
+        "profit_factor": 0.94,
+        "average_return": -0.16,
+        "median_return": -1.5,
+        "mfe": 7.19,
+        "mae": -5.3,
+        "max_drawdown": 237.64
+      },
+      "D4": {
+        "trades": 272,
+        "wins": 141,
+        "losses": 131,
+        "win_rate": 51.8,
+        "profit_factor": 1.45,
+        "average_return": 1.01,
+        "median_return": 0.13,
+        "mfe": 6.65,
+        "mae": -4.57,
+        "max_drawdown": 218.21
+      },
+      "D5": {
+        "trades": 272,
+        "wins": 125,
+        "losses": 147,
+        "win_rate": 46.0,
+        "profit_factor": 1.28,
+        "average_return": 0.83,
+        "median_return": -0.73,
+        "mfe": 9.87,
+        "mae": -5.69,
+        "max_drawdown": 257.35
+      },
+      "D6": {
+        "trades": 272,
+        "wins": 73,
+        "losses": 199,
+        "win_rate": 26.8,
+        "profit_factor": 0.78,
+        "average_return": -0.68,
+        "median_return": -1.7,
+        "mfe": 7.13,
+        "mae": -5.14,
+        "max_drawdown": 267.67
+      },
+      "C1_24b": {
+        "trades": 272,
+        "wins": 125,
+        "losses": 147,
+        "win_rate": 46.0,
+        "profit_factor": 1.28,
+        "average_return": 0.83,
+        "median_return": -0.73,
+        "mfe": 9.87,
+        "mae": -5.69,
+        "max_drawdown": 257.35
+      },
+      "C2_24b": {
+        "trades": 272,
+        "wins": 128,
+        "losses": 144,
+        "win_rate": 47.1,
+        "profit_factor": 1.29,
+        "average_return": 0.87,
+        "median_return": -0.49,
+        "mfe": 9.94,
+        "mae": -5.8,
+        "max_drawdown": 241.52
+      },
+      "B_24b": {
+        "trades": 272,
+        "wins": 76,
+        "losses": 196,
+        "win_rate": 27.9,
+        "profit_factor": 0.94,
+        "average_return": -0.16,
+        "median_return": -1.5,
+        "mfe": 7.19,
+        "mae": -5.3,
+        "max_drawdown": 237.64
+      }
+    },
+    "Segment 2": {
+      "D1": {
+        "trades": 457,
+        "wins": 151,
+        "losses": 306,
+        "win_rate": 33.0,
+        "profit_factor": 0.91,
+        "average_return": -0.39,
+        "median_return": -2.01,
+        "mfe": 9.28,
+        "mae": -7.03,
+        "max_drawdown": 685.17
+      },
+      "D2": {
+        "trades": 457,
+        "wins": 165,
+        "losses": 292,
+        "win_rate": 36.1,
+        "profit_factor": 0.96,
+        "average_return": -0.1,
+        "median_return": -1.36,
+        "mfe": 5.82,
+        "mae": -4.76,
+        "max_drawdown": 170.82
+      },
+      "D3": {
+        "trades": 457,
+        "wins": 143,
+        "losses": 314,
+        "win_rate": 31.3,
+        "profit_factor": 0.85,
+        "average_return": -0.48,
+        "median_return": -1.63,
+        "mfe": 7.17,
+        "mae": -6.39,
+        "max_drawdown": 494.03
+      },
+      "D4": {
+        "trades": 457,
+        "wins": 234,
+        "losses": 223,
+        "win_rate": 51.2,
+        "profit_factor": 1.17,
+        "average_return": 0.46,
+        "median_return": 0.18,
+        "mfe": 6.91,
+        "mae": -5.53,
+        "max_drawdown": 124.53
+      },
+      "D5": {
+        "trades": 457,
+        "wins": 217,
+        "losses": 240,
+        "win_rate": 47.5,
+        "profit_factor": 1.21,
+        "average_return": 0.75,
+        "median_return": -0.4,
+        "mfe": 9.38,
+        "mae": -7.04,
+        "max_drawdown": 367.96
+      },
+      "D6": {
+        "trades": 457,
+        "wins": 140,
+        "losses": 317,
+        "win_rate": 30.6,
+        "profit_factor": 0.78,
+        "average_return": -0.78,
+        "median_return": -1.78,
+        "mfe": 7.15,
+        "mae": -6.05,
+        "max_drawdown": 549.69
+      },
+      "C1_24b": {
+        "trades": 457,
+        "wins": 217,
+        "losses": 240,
+        "win_rate": 47.5,
+        "profit_factor": 1.21,
+        "average_return": 0.75,
+        "median_return": -0.4,
+        "mfe": 9.38,
+        "mae": -7.04,
+        "max_drawdown": 367.96
+      },
+      "C2_24b": {
+        "trades": 457,
+        "wins": 221,
+        "losses": 236,
+        "win_rate": 48.4,
+        "profit_factor": 1.18,
+        "average_return": 0.68,
+        "median_return": -0.22,
+        "mfe": 9.43,
+        "mae": -7.27,
+        "max_drawdown": 369.19
+      },
+      "B_24b": {
+        "trades": 457,
+        "wins": 143,
+        "losses": 314,
+        "win_rate": 31.3,
+        "profit_factor": 0.85,
+        "average_return": -0.48,
+        "median_return": -1.63,
+        "mfe": 7.17,
+        "mae": -6.39,
+        "max_drawdown": 494.03
+      }
+    },
+    "Segment 3": {
+      "D1": {
+        "trades": 409,
+        "wins": 100,
+        "losses": 309,
+        "win_rate": 24.4,
+        "profit_factor": 0.56,
+        "average_return": -1.53,
+        "median_return": -1.62,
+        "mfe": 6.07,
+        "mae": -5.8,
+        "max_drawdown": 682.05
+      },
+      "D2": {
+        "trades": 409,
+        "wins": 112,
+        "losses": 297,
+        "win_rate": 27.4,
+        "profit_factor": 0.61,
+        "average_return": -0.75,
+        "median_return": -1.12,
+        "mfe": 3.94,
+        "mae": -3.55,
+        "max_drawdown": 370.93
+      },
+      "D3": {
+        "trades": 409,
+        "wins": 108,
+        "losses": 301,
+        "win_rate": 26.4,
+        "profit_factor": 0.67,
+        "average_return": -0.86,
+        "median_return": -1.23,
+        "mfe": 5.04,
+        "mae": -4.84,
+        "max_drawdown": 437.52
+      },
+      "D4": {
+        "trades": 409,
+        "wins": 155,
+        "losses": 254,
+        "win_rate": 37.9,
+        "profit_factor": 0.66,
+        "average_return": -0.79,
+        "median_return": -1.11,
+        "mfe": 4.51,
+        "mae": -4.33,
+        "max_drawdown": 388.22
+      },
+      "D5": {
+        "trades": 409,
+        "wins": 144,
+        "losses": 265,
+        "win_rate": 35.2,
+        "profit_factor": 0.63,
+        "average_return": -1.2,
+        "median_return": -1.67,
+        "mfe": 5.87,
+        "mae": -6.24,
+        "max_drawdown": 566.31
+      },
+      "D6": {
+        "trades": 409,
+        "wins": 102,
+        "losses": 307,
+        "win_rate": 24.9,
+        "profit_factor": 0.61,
+        "average_return": -1.05,
+        "median_return": -1.42,
+        "mfe": 4.97,
+        "mae": -4.75,
+        "max_drawdown": 512.59
+      },
+      "C1_24b": {
+        "trades": 409,
+        "wins": 144,
+        "losses": 265,
+        "win_rate": 35.2,
+        "profit_factor": 0.63,
+        "average_return": -1.2,
+        "median_return": -1.67,
+        "mfe": 5.87,
+        "mae": -6.24,
+        "max_drawdown": 566.31
+      },
+      "C2_24b": {
+        "trades": 409,
+        "wins": 150,
+        "losses": 259,
+        "win_rate": 36.7,
+        "profit_factor": 0.61,
+        "average_return": -1.37,
+        "median_return": -1.54,
+        "mfe": 6.03,
+        "mae": -6.3,
+        "max_drawdown": 637.97
+      },
+      "B_24b": {
+        "trades": 409,
+        "wins": 108,
+        "losses": 301,
+        "win_rate": 26.4,
+        "profit_factor": 0.67,
+        "average_return": -0.86,
+        "median_return": -1.23,
+        "mfe": 5.04,
+        "mae": -4.84,
+        "max_drawdown": 437.52
+      }
+    },
+    "Segment 4": {
+      "D1": {
+        "trades": 328,
+        "wins": 102,
+        "losses": 226,
+        "win_rate": 31.1,
+        "profit_factor": 1.68,
+        "average_return": 3.35,
+        "median_return": -1.85,
+        "mfe": 24.24,
+        "mae": -7.56,
+        "max_drawdown": 454.24
+      },
+      "D2": {
+        "trades": 328,
+        "wins": 131,
+        "losses": 197,
+        "win_rate": 39.9,
+        "profit_factor": 1.94,
+        "average_return": 2.4,
+        "median_return": -0.84,
+        "mfe": 9.58,
+        "mae": -5.29,
+        "max_drawdown": 247.0
+      },
+      "D3": {
+        "trades": 328,
+        "wins": 128,
+        "losses": 200,
+        "win_rate": 39.0,
+        "profit_factor": 2.97,
+        "average_return": 6.39,
+        "median_return": -1.21,
+        "mfe": 21.74,
+        "mae": -7.01,
+        "max_drawdown": 281.77
+      },
+      "D4": {
+        "trades": 328,
+        "wins": 163,
+        "losses": 165,
+        "win_rate": 49.7,
+        "profit_factor": 1.56,
+        "average_return": 1.95,
+        "median_return": -0.07,
+        "mfe": 10.22,
+        "mae": -6.42,
+        "max_drawdown": 385.82
+      },
+      "D5": {
+        "trades": 328,
+        "wins": 158,
+        "losses": 170,
+        "win_rate": 48.2,
+        "profit_factor": 2.3,
+        "average_return": 6.17,
+        "median_return": -0.87,
+        "mfe": 23.53,
+        "mae": -8.36,
+        "max_drawdown": 376.58
+      },
+      "D6": {
+        "trades": 328,
+        "wins": 116,
+        "losses": 212,
+        "win_rate": 35.4,
+        "profit_factor": 2.4,
+        "average_return": 5.47,
+        "median_return": -1.59,
+        "mfe": 21.6,
+        "mae": -6.34,
+        "max_drawdown": 328.9
+      },
+      "C1_24b": {
+        "trades": 328,
+        "wins": 158,
+        "losses": 170,
+        "win_rate": 48.2,
+        "profit_factor": 2.3,
+        "average_return": 6.17,
+        "median_return": -0.87,
+        "mfe": 23.53,
+        "mae": -8.36,
+        "max_drawdown": 376.58
+      },
+      "C2_24b": {
+        "trades": 328,
+        "wins": 168,
+        "losses": 160,
+        "win_rate": 51.2,
+        "profit_factor": 2.42,
+        "average_return": 6.6,
+        "median_return": 0.46,
+        "mfe": 23.8,
+        "mae": -8.57,
+        "max_drawdown": 413.65
+      },
+      "B_24b": {
+        "trades": 328,
+        "wins": 128,
+        "losses": 200,
+        "win_rate": 39.0,
+        "profit_factor": 2.97,
+        "average_return": 6.39,
+        "median_return": -1.21,
+        "mfe": 21.74,
+        "mae": -7.01,
+        "max_drawdown": 281.77
+      }
+    }
+  }
+}

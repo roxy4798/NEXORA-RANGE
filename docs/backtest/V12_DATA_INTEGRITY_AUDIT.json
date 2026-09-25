@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-09-25T17:48:35.241313+00:00",
+  "final_classification": "VALIDATED FOR PAPER RESEARCH",
+  "authoritative_signal_period": {
+    "earliest_timestamp": 1647475200000,
+    "earliest_utc": "2022-03-17 00:00:00 UTC",
+    "earliest_symbol": "SOLUSDT",
+    "latest_timestamp": 1790323200000,
+    "latest_utc": "2026-09-25 08:00:00 UTC",
+    "latest_symbol": "ARUSDT",
+    "total_signals": 15434,
+    "total_symbols": 520
+  },
+  "authoritative_1m_cache_period": {
+    "start_utc": "2026-09-14 22:01:00 UTC",
+    "end_utc": "2026-09-25 08:00:00 UTC",
+    "duration_days": 10.42,
+    "symbols_count": 35
+  },
+  "coverage_audit": {
+    "signal_coverage_pct": 0.48,
+    "mixed_executed_trade_coverage_pct": 1.26,
+    "model_a_executed_trades": 73,
+    "model_b_executed_trades": 2456
+  },
+  "forensic_aggtrade_verdict": {
+    "previous_2_47_pct_discrepancy": "INVALIDATED",
+    "previous_10_04_pct_slippage_diff": "INVALIDATED",
+    "root_cause": "10-day temporal mismatch between live aggTrades (Sep 25, 2026) and event entries (Sep 15 & 18, 2026)."
+  },
+  "date_mismatch_audit": {
+    "v11_narrative_claim": "October 2023 -> April 2024",
+    "actual_signal_range": "March 2022 -> September 2026",
+    "flag": "DATE_RANGE_MISMATCH",
+    "explanation": "The V11 text narrative contained an erroneous date range claim; actual signals span 55 months."
+  },
+  "model_performance_corrected": {
+    "model_a_full_1m": {
+      "trades": 73,
+      "wr": 64.38,
+      "pf": 8.49,
+      "net_pnl": 1.37,
+      "max_dd_pct": 0.05,
+      "holdout_wr": 45.45,
+      "holdout_pf": 3.57
+    },
+    "model_b_mixed": {
+      "trades": 2456,
+      "wr": 82.33,
+      "pf": 3.28,
+      "net_pnl": 360.82,
+      "max_dd_pct": 5.37,
+      "holdout_wr": 79.23,
+      "holdout_pf": 3.62
+    }
+  },
+  "audit_checks": {
+    "timestamp_ordering_passed": true,
+    "no_duplicate_signal_ids": true,
+    "no_future_leakage": true,
+    "no_lookahead_passed": true,
+    "atr_freeze_passed": true,
+    "capital_conservation_passed": true,
+    "reproducibility_passed": true
+  }
+}

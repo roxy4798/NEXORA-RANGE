@@ -1,0 +1,3 @@
+period,active_symbols,profitable_symbols,losing_symbols,profitable_pct,hhi_index,gini_coefficient,top_1_symbol_share_pct,top_5_symbol_share_pct,top_10_symbol_share_pct
+DEVELOPMENT,68,16,52,23.5,2608.4,0.731,37.8,89.8,97.0
+HOLDOUT,38,12,26,31.6,1451.0,0.422,28.7,70.9,97.4

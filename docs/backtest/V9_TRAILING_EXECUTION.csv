@@ -1,0 +1,7 @@
+trail_slip_atr,description,trades,wr,pf,net_pnl,return_pct,expectancy_pct,max_dd_pct,total_slip_usd
+0.0,Exact theoretical fill,2720,90.55,4.48,775.61,775.61,1.5484,4.5,44.68
+0.05,+0.05 ATR adverse slippage,2720,84.08,3.97,587.97,587.97,1.3751,4.91,108.37
+0.1,+0.10 ATR adverse slippage,2720,78.68,3.43,440.26,440.26,1.2017,5.36,152.84
+0.15,+0.15 ATR adverse slippage,2720,72.87,2.92,324.05,324.05,1.0284,5.81,182.94
+0.2,+0.20 ATR adverse slippage,2720,67.9,2.45,232.65,232.65,0.855,6.26,202.36
+0.25,+0.25 ATR adverse slippage,2720,62.68,2.05,160.81,160.81,0.6816,6.71,213.92

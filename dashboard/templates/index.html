@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXORA RANGE SCANNER — Institutional Binance Futures</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Plotly.js for Interactive Institutional Candlestick & Range Rendering -->
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="brand">
+      <div class="brand-logo">N</div>
+      <div class="brand-text">
+        <h1>NEXORA RANGE</h1>
+      </div>
+      <span class="brand-badge">QuantAlgo Auto Range</span>
+    </div>
+
+    <nav class="nav-links">
+      <button class="nav-item active" data-tab="tab-overview" id="nav-btn-overview">📊 Dashboard</button>
+      <button class="nav-item" data-tab="tab-ranges" id="nav-btn-ranges">📦 Ranges</button>
+      <button class="nav-item" data-tab="tab-signals" id="nav-btn-signals">⚡ Signals</button>
+      <button class="nav-item" data-tab="tab-positions" id="nav-btn-positions">💼 Positions</button>
+      <button class="nav-item" data-tab="tab-trades" id="nav-btn-trades">📜 Trades</button>
+      <button class="nav-item" data-tab="tab-backtest" id="nav-btn-backtest">🧪 Backtest</button>
+      <button class="nav-item" data-tab="tab-config" id="nav-btn-config">⚙️ Settings</button>
+    </nav>
+
+    <div class="nav-status">
+      <div class="status-pill">
+        <span class="dot dot-green" id="ws-status-dot"></span>
+        <span id="ws-status-text">CONNECTED</span>
+      </div>
+      <div class="status-pill">
+        <span>MODE:</span>
+        <b id="metric-mode" class="text-cyan">PAPER</b>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace Content -->
+  <main class="main-content">
+
+    <!-- TAB 1: OVERVIEW & LIVE SCANNER -->
+    <section id="tab-overview" class="tab-pane active">
+      <!-- Top Metrics Row -->
+      <div class="metrics-grid">
+        <div class="card">
+          <div class="metric-title">Total Balance</div>
+          <div class="metric-value" id="metric-balance">$1,000.00</div>
+          <div class="metric-sub">USDT Wallet Balance</div>
+        </div>
+        <div class="card">
+          <div class="metric-title">Portfolio Equity</div>
+          <div class="metric-value text-cyan" id="metric-equity">$1,000.00</div>
+          <div class="metric-sub">Mark-to-Market Equity</div>
+        </div>
+        <div class="card">
+          <div class="metric-title">Daily Realized PnL</div>
+          <div class="metric-value text-emerald" id="metric-daily-pnl">+$0.00</div>
+          <div class="metric-sub">Rolling 24h Performance</div>
+        </div>
+        <div class="card">
+          <div class="metric-title">Open Positions</div>
+          <div class="metric-value" id="metric-open-positions">0</div>
+          <div class="metric-sub">Max Allowed: 5</div>
+        </div>
+        <div class="card">
+          <div class="metric-title">Active Ranges</div>
+          <div class="metric-value text-cyan" id="metric-active-ranges">0</div>
+          <div class="metric-sub">Across 150+ Symbols</div>
+        </div>
+      </div>
+
+      <!-- Chart Inspection Box -->
+      <div class="card" style="margin-bottom: 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+          <h2 id="chart-title" style="font-size:16px; font-weight:600;">BTCUSDT [15m] — Auto Range Detector [QuantAlgo]</h2>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-secondary" onclick="loadChartData('BTCUSDT', '15m')">BTCUSDT</button>
+            <button class="btn btn-secondary" onclick="loadChartData('ETHUSDT', '15m')">ETHUSDT</button>
+            <button class="btn btn-secondary" onclick="loadChartData('SOLUSDT', '15m')">SOLUSDT</button>
+          </div>
+        </div>
+        <div id="tv-chart" class="chart-container"></div>
+      </div>
+
+      <!-- Active Ranges Table -->
+      <div class="card">
+        <h3 style="font-size:15px; margin-bottom:14px; font-weight:600;">Active Market Structures (QuantAlgo Multi-Scale Ranges)</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>TF</th>
+                <th>Scale</th>
+                <th>State</th>
+                <th>Upper</th>
+                <th>Lower</th>
+                <th>Height %</th>
+                <th>Containment</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody id="ranges-table-body">
+              <tr><td colspan="9" style="text-align:center; color:#64748b;">Loading active ranges...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: DETECTED RANGES -->
+    <section id="tab-ranges" class="tab-pane">
+      <div class="card">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">All Monitored Consolidation Ranges</h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+          Ranges automatically detected via 90th percentile bands, Wilder ATR(200) compression, midline rotation ($\ge 0.18$), and horizontal drift filters ($\le 0.45$).
+        </p>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>TF</th>
+                <th>Scale</th>
+                <th>State</th>
+                <th>Upper</th>
+                <th>Lower</th>
+                <th>Height %</th>
+                <th>Containment</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody id="all-ranges-table-body">
+              <tr><td colspan="9" style="text-align:center; color:#64748b;">No ranges to display</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: TRADING SIGNALS -->
+    <section id="tab-signals" class="tab-pane">
+      <div class="card">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">Systematic Breakout & Breakdown Signals</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Signal Hash ID</th>
+                <th>Symbol</th>
+                <th>Direction</th>
+                <th>Entry Price</th>
+                <th>Stop Loss</th>
+                <th>TP1 / TP2</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="signals-table-body">
+              <tr><td colspan="7" style="text-align:center; color:#64748b;">No signals generated</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: ACTIVE POSITIONS -->
+    <section id="tab-positions" class="tab-pane">
+      <div class="card">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">Active Portfolio Positions</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>Side</th>
+                <th>Entry</th>
+                <th>Mark Price</th>
+                <th>Quantity</th>
+                <th>Unrealized PnL</th>
+                <th>Stop Loss</th>
+                <th>TP1</th>
+              </tr>
+            </thead>
+            <tbody id="positions-table-body">
+              <tr><td colspan="8" style="text-align:center; color:#64748b;">No open positions</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: CLOSED TRADES -->
+    <section id="tab-trades" class="tab-pane">
+      <div class="card">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">Trade Audit Log & Realized PnL</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Symbol</th>
+                <th>Side</th>
+                <th>Entry</th>
+                <th>Exit</th>
+                <th>Net PnL</th>
+                <th>Fee</th>
+                <th>Exit Reason</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="trades-table-body">
+              <tr><td colspan="8" style="text-align:center; color:#64748b;">No closed trades</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 6: BACKTEST & RESEARCH -->
+    <section id="tab-backtest" class="tab-pane">
+      <div class="card" style="margin-bottom:20px;">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">Event-Driven Backtest & Walk-Forward Engine</h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+          Runs true candle-by-candle simulation with slippage, maker/taker commissions, and zero lookahead bias.
+        </p>
+        <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
+          <div>
+            <label style="font-size:12px; color:var(--text-muted); display:block; margin-bottom:4px;">Symbol</label>
+            <input type="text" id="bt-symbol" value="BTCUSDT" style="background:#0f1523; border:1px solid var(--border-glass); color:#fff; padding:8px 12px; border-radius:6px; font-family:'JetBrains Mono';">
+          </div>
+          <div>
+            <label style="font-size:12px; color:var(--text-muted); display:block; margin-bottom:4px;">Timeframe</label>
+            <select id="bt-timeframe" style="background:#0f1523; border:1px solid var(--border-glass); color:#fff; padding:8px 12px; border-radius:6px;">
+              <option value="15m" selected>15m</option>
+              <option value="1h">1h</option>
+              <option value="4h">4h</option>
+            </select>
+          </div>
+          <div>
+            <label style="font-size:12px; color:var(--text-muted); display:block; margin-bottom:4px;">Bars Count</label>
+            <input type="number" id="bt-limit" value="1000" style="background:#0f1523; border:1px solid var(--border-glass); color:#fff; padding:8px 12px; border-radius:6px; width:100px;">
+          </div>
+          <div style="margin-top:20px;">
+            <button class="btn btn-primary" id="btn-run-backtest">Run Event-Driven Backtest</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Card (hidden initially) -->
+      <div class="card" id="bt-results-card" style="display:none;">
+        <h4 style="font-size:15px; margin-bottom:14px; font-weight:600;">Simulation Performance Summary</h4>
+        <div class="metrics-grid" style="grid-template-columns: repeat(6, 1fr);">
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Total Trades</div>
+            <div class="metric-value" id="bt-total-trades">0</div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Win Rate</div>
+            <div class="metric-value text-emerald" id="bt-win-rate">0%</div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Profit Factor</div>
+            <div class="metric-value text-cyan" id="bt-profit-factor">0.0</div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Net PnL</div>
+            <div class="metric-value text-emerald" id="bt-net-pnl">$0.00</div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Max Drawdown</div>
+            <div class="metric-value text-rose" id="bt-max-dd">0%</div>
+          </div>
+          <div class="card" style="padding:14px;">
+            <div class="metric-title">Sharpe Ratio</div>
+            <div class="metric-value text-cyan" id="bt-sharpe">0.0</div>
+          </div>
+        </div>
+
+        <h5 style="font-size:13px; margin: 16px 0 8px 0; color:var(--text-muted);">Equity Curve Progression</h5>
+        <div id="bt-equity-chart" style="height:320px; width:100%; background:#090c13; border-radius:8px; border:1px solid var(--border-glass);"></div>
+      </div>
+    </section>
+
+    <!-- TAB 7: CONFIGURATION -->
+    <section id="tab-config" class="tab-pane">
+      <div class="card">
+        <h3 style="font-size:16px; margin-bottom:14px; font-weight:600;">System Configuration & Indicator Hyperparameters</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr><th>Parameter</th><th>Value</th><th>Role</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Scan Scaling</td><td>Base + 2x + 3x (20, 40, 60)</td><td>Multi-scale concurrent consolidation evaluation</td></tr>
+              <tr><td>Boundary Basis</td><td>Percentile Band (90%)</td><td>90th/10th linear interpolation percentile bands</td></tr>
+              <tr><td>ATR Length</td><td>200</td><td>Wilder baseline volatility normalization</td></tr>
+              <tr><td>Compression Percentile</td><td>40.0%</td><td>Maximum allowed rank over 500-bar lookback</td></tr>
+              <tr><td>Min Rotation Rate</td><td>0.18</td><td>Midpoint crossings frequency filter</td></tr>
+              <tr><td>Min Touches</td><td>2 Upper, 2 Lower</td><td>Structural boundary touch verification</td></tr>
+              <tr><td>Touch Tolerance</td><td>0.10 ATR</td><td>Boundary proximity threshold</td></tr>
+              <tr><td>Max Drift</td><td>0.45</td><td>Horizontal slope filter (OLS regression)</td></tr>
+              <tr><td>Min Containment</td><td>70.0%</td><td>Candle body containment ratio inside range</td></tr>
+              <tr><td>Overshoot Absorption</td><td>Enabled (0.25 ATR)</td><td>Absorbs marginal wicks without false breakouts</td></tr>
+              <tr><td>Breakout Buffer</td><td>0.15 ATR</td><td>Clearance distance beyond boundary for entry</td></tr>
+              <tr><td>Merge Deviations</td><td>Enabled (10 bars)</td><td>Failed breakout recovery window</td></tr>
+              <tr><td>Trading Mode</td><td>PAPER</td><td>Default safe simulation mode</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/static/js/chart.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

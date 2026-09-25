@@ -1,0 +1,4 @@
+policy,code,description,trades,wr,pf,net_pnl,return_pct,max_dd_pct
+Policy A,A,Conservative adverse-first (PRIMARY),2720,84.08,3.97,587.97,587.97,4.91
+Policy B,B,Neutral (chronological midpoint approximation),1780,52.7,0.92,-7.95,-7.95,15.95
+Policy C,C,Favorable-first (high/low sequencing favor),2724,84.1,3.98,590.04,590.04,4.91
